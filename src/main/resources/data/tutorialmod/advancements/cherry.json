@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "tutorialmod:cherry"
+    },
+    "title": {
+      "translate": "advancements.cherry.title"
+    },
+    "description": {
+      "translate": "advancements.cherry.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "cherry": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "tutorialmod:cherry"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "tutorialmod:cheesewith_butter"
+}

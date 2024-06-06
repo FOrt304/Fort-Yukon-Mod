@@ -50,5 +50,31 @@
         "stream": true
       }
     ]
+  },
+  "fortyukonintro": {
+    "sounds": [
+      {
+        "name": "tutorialmod:recording3",
+        "stream": true
+      }
+    ]
+  },
+  "jatterogerbeatboxedition": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "tutorialmod:jatter_oger_beatbox_edition",
+        "stream": true
+      }
+    ]
+  },
+  "aofy": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "tutorialmod:aofy",
+        "stream": true
+      }
+    ]
   }
 }

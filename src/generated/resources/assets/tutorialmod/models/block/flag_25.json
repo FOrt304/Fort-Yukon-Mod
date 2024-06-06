@@ -1,0 +1,10 @@
+{
+  "parent": "tutorialmod:custom/flagh_turtsiia",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "all": "tutorialmod:block/flagh_turtsiia",
+    "particle": "tutorialmod:block/flagh_turtsiia",
+    "0": "tutorialmod:block/flagh_turtsiia",
+    "1": "tutorialmod:block/oak_planks"
+  }
+}

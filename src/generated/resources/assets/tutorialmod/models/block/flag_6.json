@@ -1,0 +1,10 @@
+{
+  "parent": "tutorialmod:custom/flagh_ghiermanii",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "all": "tutorialmod:block/flagh_ghiermanii",
+    "particle": "tutorialmod:block/flagh_ghiermanii",
+    "0": "tutorialmod:block/flagh_ghiermanii",
+    "1": "tutorialmod:block/oak_planks"
+  }
+}

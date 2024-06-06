@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "tutorialmod:pine_sapling"
+    },
+    "title": {
+      "translate": "advancements.tutorialmod.entertestbiome.title"
+    },
+    "description": {
+      "translate": "advancements.tutorialmod.entertestbiome.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "entertestbiome": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "tutorialmod:test_biome"
+        }
+      }
+    }
+  },
+  "parent": "tutorialmod:obtainmod_portal"
+}

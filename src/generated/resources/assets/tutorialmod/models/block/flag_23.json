@@ -1,0 +1,10 @@
+{
+  "parent": "tutorialmod:custom/flagh_sierbii",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "all": "tutorialmod:block/flagh_sierbii",
+    "particle": "tutorialmod:block/flagh_sierbii",
+    "0": "tutorialmod:block/flagh_sierbii",
+    "1": "tutorialmod:block/oak_planks"
+  }
+}

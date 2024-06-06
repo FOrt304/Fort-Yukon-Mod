@@ -1,0 +1,10 @@
+{
+  "parent": "tutorialmod:custom/flagh_danii",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "all": "tutorialmod:block/flagh_danii",
+    "particle": "tutorialmod:block/flagh_danii",
+    "0": "tutorialmod:block/flagh_danii",
+    "1": "tutorialmod:block/oak_planks"
+  }
+}

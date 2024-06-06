@@ -56,6 +56,45 @@ public class ModBlockLootTables extends BlockLootSubProvider {
         this.add(ModBlocks.SAPPHIRE_DOOR.get(),
                 block -> createDoorTable(ModBlocks.SAPPHIRE_DOOR.get()));
 
+        this.dropSelf(ModBlocks.ALEXANDRITE_BLOCK.get());
+        this.dropSelf(ModBlocks.RAW_ALEXANDRITE_BLOCK.get());
+
+        this.add(ModBlocks.ALEXANDRITE_ORE.get(),
+                block -> createOreDrop(ModBlocks.ALEXANDRITE_ORE.get(), ModItems.RAW_ALEXANDRITE.get()));
+        this.add(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get(),
+                block -> createOreDrop(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE.get(), ModItems.RAW_ALEXANDRITE.get()));
+        this.add(ModBlocks.END_STONE_ALEXANDRITE_ORE.get(),
+                block -> createOreDrop(ModBlocks.END_STONE_ALEXANDRITE_ORE.get(), ModItems.RAW_ALEXANDRITE.get()));
+        this.add(ModBlocks.NETHER_ALEXANDRITE_ORE.get(),
+                block -> createOreDrop(ModBlocks.NETHER_ALEXANDRITE_ORE.get(), ModItems.RAW_ALEXANDRITE.get()));
+
+        this.dropSelf(ModBlocks.ALEXANDRITE_STAIRS.get());
+        this.add(ModBlocks.ALEXANDRITE_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.ALEXANDRITE_SLAB.get()));
+        this.dropSelf(ModBlocks.ALEXANDRITE_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.ALEXANDRITE_BUTTON.get());
+        this.dropSelf(ModBlocks.ALEXANDRITE_FENCE.get());
+        this.dropSelf(ModBlocks.ALEXANDRITE_FENCE_GATE.get());
+        this.dropSelf(ModBlocks.ALEXANDRITE_WALL.get());
+        this.dropSelf(ModBlocks.ALEXANDRITE_TRAPDOOR.get());
+
+        this.add(ModBlocks.ALEXANDRITE_DOOR.get(),
+                block -> createDoorTable(ModBlocks.ALEXANDRITE_DOOR.get()));
+
+        this.dropSelf(ModBlocks.OGER_STAIRS.get());
+        this.dropSelf(ModBlocks.OGER_BUTTON.get());
+        this.dropSelf(ModBlocks.OGER_PRESSURE_PLATE.get());
+        this.dropSelf(ModBlocks.OGER_FENCE.get());
+        this.dropSelf(ModBlocks.OGER_FENCE_GATE.get());
+
+        this.add(ModBlocks.OGER_SLAB.get(),
+                block -> createSlabItemTable(ModBlocks.OGER_SLAB.get()));
+
+        this.dropSelf(ModBlocks.KOSLING_BLOCK.get());
+
+        this.add(ModBlocks.KOSLING_ORE.get(),
+                block -> createCopperLikeOreDrops(ModBlocks.KOSLING_ORE.get(), ModItems.KOSLING.get()));
+
         LootItemCondition.Builder lootitemcondition$builder = LootItemBlockStatePropertyCondition
                 .hasBlockStateProperties(ModBlocks.STRAWBERRY_CROP.get())
                 .setProperties(StatePropertiesPredicate.Builder.properties().hasProperty(StrawberryCropBlock.AGE, 5));
@@ -102,6 +141,15 @@ public class ModBlockLootTables extends BlockLootSubProvider {
                 createSingleItemTable(ModItems.PINE_HANGING_SIGN.get()));
 
         this.dropSelf(ModBlocks.PINE_SAPLING.get());
+
+        this.dropSelf(ModBlocks.OGER_LOG.get());
+        this.dropSelf(ModBlocks.OGER_WOOD.get());
+        this.dropSelf(ModBlocks.OGER_PLANKS.get());
+
+        this.add(ModBlocks.OGER_LEAVES.get(), block ->
+                createLeavesDrops(block, ModBlocks.OGER_SAPLING.get(), NORMAL_LEAVES_SAPLING_CHANCES));
+
+        this.dropSelf(ModBlocks.OGER_SAPLING.get());
 
     }
 

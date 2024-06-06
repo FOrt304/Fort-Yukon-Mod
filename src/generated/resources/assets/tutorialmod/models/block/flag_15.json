@@ -1,0 +1,10 @@
+{
+  "parent": "tutorialmod:custom/flagh_kitaia",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "all": "tutorialmod:block/flagh_kitaia",
+    "particle": "tutorialmod:block/flagh_kitaia",
+    "0": "tutorialmod:block/flagh_kitaia",
+    "1": "tutorialmod:block/oak_planks"
+  }
+}

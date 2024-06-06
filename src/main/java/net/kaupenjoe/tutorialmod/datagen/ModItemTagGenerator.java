@@ -27,6 +27,12 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                         ModItems.SAPPHIRE_LEGGINGS.get(),
                         ModItems.SAPPHIRE_BOOTS.get());
 
+        this.tag(ItemTags.TRIMMABLE_ARMOR)
+                .add(ModItems.KOSLING_HELMET.get(),
+                        ModItems.KOSLING_CHESTPLATE.get(),
+                        ModItems.KOSLING_LEGGINGS.get(),
+                        ModItems.KOSLING_BOOTS.get());
+
         this.tag(ItemTags.MUSIC_DISCS)
                 .add(ModItems.BAR_BRAWL_MUSIC_DISC.get());
 
@@ -38,6 +44,24 @@ public class ModItemTagGenerator extends ItemTagsProvider {
 
         this.tag(ItemTags.CREEPER_DROP_MUSIC_DISCS)
                 .add(ModItems.JATTER_OGER_BEATBOX_MUSIC_DISC.get());
+
+        this.tag(ItemTags.MUSIC_DISCS)
+                .add(ModItems.FORTYUKON.get());
+
+        this.tag(ItemTags.CREEPER_DROP_MUSIC_DISCS)
+                .add(ModItems.FORTYUKON.get());
+
+        this.tag(ItemTags.MUSIC_DISCS)
+                .add(ModItems.JATTEROGERBEATBOXEDITION.get());
+
+        this.tag(ItemTags.CREEPER_DROP_MUSIC_DISCS)
+                .add(ModItems.JATTEROGERBEATBOXEDITION.get());
+
+        this.tag(ItemTags.MUSIC_DISCS)
+                .add(ModItems.AOFY.get());
+
+        this.tag(ItemTags.CREEPER_DROP_MUSIC_DISCS)
+                .add(ModItems.AOFY.get());
 
         this.tag(ItemTags.LOGS_THAT_BURN)
                 .add(ModBlocks.PINE_LOG.get().asItem())
@@ -47,5 +71,12 @@ public class ModItemTagGenerator extends ItemTagsProvider {
 
         this.tag(ItemTags.PLANKS)
                 .add(ModBlocks.PINE_PLANKS.get().asItem());
+
+        this.tag(ItemTags.LOGS_THAT_BURN)
+                .add(ModBlocks.OGER_LOG.get().asItem())
+                .add(ModBlocks.OGER_WOOD.get().asItem());
+
+        this.tag(ItemTags.PLANKS)
+                .add(ModBlocks.OGER_PLANKS.get().asItem());
     }
 }

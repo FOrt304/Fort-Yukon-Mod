@@ -2,6 +2,8 @@ package net.kaupenjoe.tutorialmod;
 
 import com.mojang.logging.LogUtils;
 import net.kaupenjoe.tutorialmod.block.ModBlocks;
+import net.kaupenjoe.tutorialmod.block.ModFluidTypes;
+import net.kaupenjoe.tutorialmod.block.ModFluids;
 import net.kaupenjoe.tutorialmod.block.entity.ModBlockEntities;
 import net.kaupenjoe.tutorialmod.entity.ModEntities;
 import net.kaupenjoe.tutorialmod.entity.client.ModBoatRenderer;
@@ -14,6 +16,7 @@ import net.kaupenjoe.tutorialmod.screen.GemPolishingStationScreen;
 import net.kaupenjoe.tutorialmod.screen.ModMenuTypes;
 import net.kaupenjoe.tutorialmod.sound.ModSounds;
 import net.kaupenjoe.tutorialmod.util.ModWoodTypes;
+//import net.kaupenjoe.tutorialmod.villager.ModVillagers;
 import net.kaupenjoe.tutorialmod.villager.ModVillagers;
 import net.kaupenjoe.tutorialmod.worldgen.biome.ModTerrablender;
 import net.kaupenjoe.tutorialmod.worldgen.biome.surface.ModSurfaceRules;
@@ -41,7 +44,21 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 import terrablender.api.SurfaceRuleManager;
 
+import net.kaupenjoe.tutorialmod.paintings.Paintings;
+import net.kaupenjoe.tutorialmod.enchantment.Enchantments;
+
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.FriendlyByteBuf;
+
 import java.util.Arrays;
+import java.util.function.Supplier;
+import java.util.function.Function;
+import java.util.function.BiConsumer;
+import java.util.concurrent.ConcurrentLinkedQueue;
+import java.util.List;
+import java.util.Collection;
+import java.util.ArrayList;
+import java.util.AbstractMap;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(TutorialMod.MOD_ID)
@@ -59,6 +76,11 @@ public class TutorialMod {
 
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+
+        ModFluids.REGISTRY.register(modEventBus);
+        ModFluidTypes.REGISTRY.register(modEventBus);
+
+//        ModDimensions.register();
 
         ModLootModifiers.register(modEventBus);
         ModVillagers.register(modEventBus);
@@ -93,6 +115,14 @@ public class TutorialMod {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.SAPPHIRE);
             event.accept(ModItems.RAW_SAPPHIRE);
+            event.accept(ModItems.KOSLING);
+            event.accept(ModItems.ALEXANDRITE);
+            event.accept(ModItems.RAW_ALEXANDRITE);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlocks.ALEXANDRITE_BLOCK);
+            event.accept(ModBlocks.RAW_ALEXANDRITE_BLOCK);
         }
     }
 

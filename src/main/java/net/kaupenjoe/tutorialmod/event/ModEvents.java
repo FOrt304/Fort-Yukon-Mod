@@ -4,6 +4,7 @@ import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
 import net.kaupenjoe.tutorialmod.TutorialMod;
 import net.kaupenjoe.tutorialmod.block.ModBlocks;
 import net.kaupenjoe.tutorialmod.item.ModItems;
+// import net.kaupenjoe.tutorialmod.villager.ModVillagers;
 import net.kaupenjoe.tutorialmod.villager.ModVillagers;
 import net.minecraft.world.entity.npc.VillagerProfession;
 import net.minecraft.world.entity.npc.VillagerTrades;
@@ -45,6 +46,12 @@ public class ModEvents {
             trades.get(3).add((pTrader, pRandom) -> new MerchantOffer(
                     new ItemStack(Items.GOLD_INGOT, 8),
                     new ItemStack(ModItems.CORN_SEEDS.get(), 2),
+                    2, 12, 0.075f));
+
+            // Level 4
+            trades.get(4).add((pTrader, pRandom) -> new MerchantOffer(
+                    new ItemStack(Items.IRON_INGOT, 10),
+                    new ItemStack(ModItems.FORTYUKON.get(), 1),
                     2, 12, 0.075f));
         }
 
@@ -88,5 +95,9 @@ public class ModEvents {
                 new ItemStack(Items.EMERALD, 24),
                 new ItemStack(ModItems.METAL_DETECTOR.get(), 1),
                 2, 12, 0.15f));
+        genericTrades.add((pTrader, pRandom) -> new MerchantOffer(
+                new ItemStack(Items.IRON_INGOT, 10),
+                new ItemStack(ModItems.FORTYUKON.get(), 1),
+                2, 12, 0.075f));
     }
 }

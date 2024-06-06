@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "tutorialmod:block/oger_slab"
+    },
+    "type=top": {
+      "model": "tutorialmod:block/oger_slab_top"
+    },
+    "type=double": {
+      "model": "tutorialmod:block/oger_slab_full"
+    }
+  }
+}

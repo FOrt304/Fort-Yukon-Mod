@@ -1,0 +1,10 @@
+{
+  "parent": "tutorialmod:custom/flagh_chiekhii",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "all": "tutorialmod:block/flagh_chiekhii",
+    "particle": "tutorialmod:block/flagh_chiekhii",
+    "0": "tutorialmod:block/flagh_chiekhii",
+    "1": "tutorialmod:block/oak_planks"
+  }
+}

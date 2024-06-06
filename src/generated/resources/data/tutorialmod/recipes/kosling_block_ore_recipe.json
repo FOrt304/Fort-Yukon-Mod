@@ -1,0 +1,13 @@
+{
+  "group": "tutorialmod",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "tutorialmod:kosling_block"
+    }
+  ],
+  "result": {
+    "item": "tutorialmod:kosling",
+    "count": 9
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:red_wool"
+    },
+    "1": {
+      "item": "minecraft:red_wool"
+    },
+    "2": {
+      "item": "minecraft:red_wool"
+    },
+    "3": {
+      "item": "minecraft:red_wool"
+    },
+    "4": {
+      "item": "minecraft:yellow_wool"
+    },
+    "5": {
+      "item": "minecraft:yellow_wool"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:red_wool"
+    },
+    "8": {
+      "item": "minecraft:red_wool"
+    }
+  },
+  "result": {
+    "item": "tutorialmod:flag_lul",
+    "count": 1
+  }
+}

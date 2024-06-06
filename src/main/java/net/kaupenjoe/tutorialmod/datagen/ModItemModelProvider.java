@@ -57,6 +57,13 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         simpleItem(ModItems.JATTER_OGER_BEATBOX_MUSIC_DISC);
 
+        simpleItem(ModItems.FORTYUKON);
+        simpleItem(ModItems.JATTEROGERBEATBOXEDITION);
+        simpleItem(ModItems.AOFY);
+
+        simpleItem(ModItems.KOSLING_IGNITER);
+        simpleItem(ModItems.KOSLING);
+
         simpleBlockItem(ModBlocks.SAPPHIRE_DOOR);
 
         fenceItem(ModBlocks.SAPPHIRE_FENCE, ModBlocks.SAPPHIRE_BLOCK);
@@ -76,10 +83,48 @@ public class ModItemModelProvider extends ItemModelProvider {
         handheldItem(ModItems.SAPPHIRE_SHOVEL);
         handheldItem(ModItems.SAPPHIRE_HOE);
 
+        simpleItem(ModItems.ALEXANDRITE);
+        simpleItem(ModItems.RAW_ALEXANDRITE);
+
+        simpleItem(ModItems.KOHLRABI);
+        simpleItem(ModItems.PEAT_BRICK);
+
+        handheldItem(ModItems.ALEXANDRITE_SWORD);
+        handheldItem(ModItems.ALEXANDRITE_PICKAXE);
+        handheldItem(ModItems.ALEXANDRITE_SHOVEL);
+        handheldItem(ModItems.ALEXANDRITE_AXE);
+        handheldItem(ModItems.ALEXANDRITE_HOE);
+
+
+        buttonItem(ModBlocks.ALEXANDRITE_BUTTON, ModBlocks.ALEXANDRITE_BLOCK);
+        fenceItem(ModBlocks.ALEXANDRITE_FENCE, ModBlocks.ALEXANDRITE_BLOCK);
+        wallItem(ModBlocks.ALEXANDRITE_WALL, ModBlocks.ALEXANDRITE_BLOCK);
+
+        simpleBlockItem(ModBlocks.ALEXANDRITE_DOOR);
+
+        handheldItem(ModItems.KOSLING_SWORD);
+        handheldItem(ModItems.KOSLING_PICKAXE);
+        handheldItem(ModItems.KOSLING_AXE);
+        handheldItem(ModItems.KOSLING_SHOVEL);
+        handheldItem(ModItems.KOSLING_HOE);
+
         trimmedArmorItem(ModItems.SAPPHIRE_HELMET);
         trimmedArmorItem(ModItems.SAPPHIRE_CHESTPLATE);
         trimmedArmorItem(ModItems.SAPPHIRE_LEGGINGS);
         trimmedArmorItem(ModItems.SAPPHIRE_BOOTS);
+
+        trimmedArmorItem(ModItems.KOSLING_HELMET);
+        trimmedArmorItem(ModItems.KOSLING_CHESTPLATE);
+        trimmedArmorItem(ModItems.KOSLING_LEGGINGS);
+        trimmedArmorItem(ModItems.KOSLING_BOOTS);
+
+        fenceItem(ModBlocks.OGER_FENCE, ModBlocks.SAPPHIRE_BLOCK);
+        buttonItem(ModBlocks.OGER_BUTTON, ModBlocks.SAPPHIRE_BLOCK);
+
+        evenSimplerBlockItem(ModBlocks.OGER_STAIRS);
+        evenSimplerBlockItem(ModBlocks.OGER_SLAB);
+        evenSimplerBlockItem(ModBlocks.OGER_PRESSURE_PLATE);
+        evenSimplerBlockItem(ModBlocks.OGER_FENCE_GATE);
 
         simpleBlockItemBlockTexture(ModBlocks.CATMINT);
 

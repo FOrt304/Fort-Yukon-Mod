@@ -35,6 +35,15 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         blockWithItem(ModBlocks.SOUND_BLOCK);
 
+        stairsBlock(((StairBlock) ModBlocks.OGER_STAIRS.get()), blockTexture(ModBlocks.OGER_PLANKS.get()));
+        slabBlock(((SlabBlock) ModBlocks.OGER_SLAB.get()), blockTexture(ModBlocks.OGER_PLANKS.get()), blockTexture(ModBlocks.OGER_PLANKS.get()));
+
+        buttonBlock(((ButtonBlock) ModBlocks.OGER_BUTTON.get()), blockTexture(ModBlocks.OGER_PLANKS.get()));
+        pressurePlateBlock(((PressurePlateBlock) ModBlocks.OGER_PRESSURE_PLATE.get()), blockTexture(ModBlocks.OGER_PLANKS.get()));
+
+        fenceBlock(((FenceBlock) ModBlocks.OGER_FENCE.get()), blockTexture(ModBlocks.OGER_PLANKS.get()));
+        fenceGateBlock(((FenceGateBlock) ModBlocks.OGER_FENCE_GATE.get()), blockTexture(ModBlocks.OGER_PLANKS.get()));
+
         stairsBlock(((StairBlock) ModBlocks.SAPPHIRE_STAIRS.get()), blockTexture(ModBlocks.SAPPHIRE_BLOCK.get()));
         slabBlock(((SlabBlock) ModBlocks.SAPPHIRE_SLAB.get()), blockTexture(ModBlocks.SAPPHIRE_BLOCK.get()), blockTexture(ModBlocks.SAPPHIRE_BLOCK.get()));
 
@@ -47,6 +56,33 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         doorBlockWithRenderType(((DoorBlock) ModBlocks.SAPPHIRE_DOOR.get()), modLoc("block/sapphire_door_bottom"), modLoc("block/sapphire_door_top"), "cutout");
         trapdoorBlockWithRenderType(((TrapDoorBlock) ModBlocks.SAPPHIRE_TRAPDOOR.get()), modLoc("block/sapphire_trapdoor"), true, "cutout");
+
+        blockWithItem(ModBlocks.ALEXANDRITE_BLOCK);
+        blockWithItem(ModBlocks.RAW_ALEXANDRITE_BLOCK);
+
+        blockWithItem(ModBlocks.ALEXANDRITE_ORE);
+        blockWithItem(ModBlocks.DEEPSLATE_ALEXANDRITE_ORE);
+        blockWithItem(ModBlocks.END_STONE_ALEXANDRITE_ORE);
+        blockWithItem(ModBlocks.NETHER_ALEXANDRITE_ORE);
+
+        stairsBlock((StairBlock) ModBlocks.ALEXANDRITE_STAIRS.get(), blockTexture(ModBlocks.ALEXANDRITE_BLOCK.get()));
+        slabBlock(((SlabBlock) ModBlocks.ALEXANDRITE_SLAB.get()), blockTexture(ModBlocks.ALEXANDRITE_BLOCK.get()), blockTexture(ModBlocks.ALEXANDRITE_BLOCK.get()));
+
+        buttonBlock((ButtonBlock) ModBlocks.ALEXANDRITE_BUTTON.get(), blockTexture(ModBlocks.ALEXANDRITE_BLOCK.get()));
+        pressurePlateBlock((PressurePlateBlock) ModBlocks.ALEXANDRITE_PRESSURE_PLATE.get(), blockTexture(ModBlocks.ALEXANDRITE_BLOCK.get()));
+
+        fenceBlock((FenceBlock) ModBlocks.ALEXANDRITE_FENCE.get(), blockTexture(ModBlocks.ALEXANDRITE_BLOCK.get()));
+        fenceGateBlock((FenceGateBlock) ModBlocks.ALEXANDRITE_FENCE_GATE.get(), blockTexture(ModBlocks.ALEXANDRITE_BLOCK.get()));
+        wallBlock((WallBlock) ModBlocks.ALEXANDRITE_WALL.get(), blockTexture(ModBlocks.ALEXANDRITE_BLOCK.get()));
+
+        doorBlockWithRenderType((DoorBlock)ModBlocks.ALEXANDRITE_DOOR.get(), modLoc("block/alexandrite_door_bottom"), modLoc("block/alexandrite_door_top"), "cutout");
+        trapdoorBlockWithRenderType((TrapDoorBlock) ModBlocks.ALEXANDRITE_TRAPDOOR.get(), modLoc("block/alexandrite_trapdoor"), true, "cutout");
+
+        blockItem(ModBlocks.ALEXANDRITE_STAIRS);
+        blockItem(ModBlocks.ALEXANDRITE_SLAB);
+        blockItem(ModBlocks.ALEXANDRITE_PRESSURE_PLATE);
+        blockItem(ModBlocks.ALEXANDRITE_FENCE_GATE);
+        blockItem(ModBlocks.ALEXANDRITE_TRAPDOOR); // , "_bottom"
 
         makeStrawberryCrop((CropBlock) ModBlocks.STRAWBERRY_CROP.get(), "strawberry_stage", "strawberry_stage");
         makeCornCrop(((CropBlock) ModBlocks.CORN_CROP.get()), "corn_stage_", "corn_stage_");
@@ -81,6 +117,18 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         hangingSignBlock(ModBlocks.PINE_HANGING_SIGN.get(), ModBlocks.PINE_WALL_HANGING_SIGN.get(), blockTexture(ModBlocks.PINE_PLANKS.get()));
         saplingBlock(ModBlocks.PINE_SAPLING);
+
+        logBlock(((RotatedPillarBlock) ModBlocks.OGER_LOG.get()));
+        axisBlock(((RotatedPillarBlock) ModBlocks.OGER_WOOD.get()), blockTexture(ModBlocks.OGER_LOG.get()), blockTexture(ModBlocks.OGER_LOG.get()));
+
+        blockItem(ModBlocks.OGER_LOG);
+        blockItem(ModBlocks.OGER_WOOD);
+
+        blockWithItem(ModBlocks.OGER_PLANKS);
+
+        leavesBlock(ModBlocks.OGER_LEAVES);
+
+        saplingBlock(ModBlocks.OGER_SAPLING);
 
         blockWithItem(ModBlocks.MOD_PORTAL);
     }

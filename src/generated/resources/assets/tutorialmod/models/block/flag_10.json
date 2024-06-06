@@ -1,0 +1,10 @@
+{
+  "parent": "tutorialmod:custom/flagh_irlandii",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "all": "tutorialmod:block/flagh_irlandii",
+    "particle": "tutorialmod:block/flagh_irlandii",
+    "0": "tutorialmod:block/flagh_irlandii",
+    "1": "tutorialmod:block/oak_planks"
+  }
+}

@@ -1,11 +1,10 @@
 package net.kaupenjoe.tutorialmod.item.custom;
 
-import net.kaupenjoe.tutorialmod.sound.ModSounds;
 import net.kaupenjoe.tutorialmod.util.ModTags;
+import net.minecraft.client.gui.screens.Screen;
 import net.minecraft.client.resources.language.I18n;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
-import net.minecraft.sounds.SoundSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
@@ -33,21 +32,18 @@ public class MetalDetectorItem extends Item {
             boolean foundBlock = false;
 
             for(int i = 0; i <= positionClicked.getY() + 64; i++) {
-                BlockState state = pContext.getLevel().getBlockState(positionClicked.below(i));
+                BlockState blockState = pContext.getLevel().getBlockState(positionClicked.below(i));
 
-                if (isValuableBlock(state)) {
-                    outputValuableCoordinates(positionClicked.below(i), player, state.getBlock());
+                if(isValuableBlock(blockState)) {
+                    outputValuableCoordinates(positionClicked.below(i), player, blockState.getBlock());
                     foundBlock = true;
-
-                    pContext.getLevel().playSeededSound(null, positionClicked.getX(), positionClicked.getY(), positionClicked.getZ(),
-                            ModSounds.METAL_DETECTOR_FOUND_ORE.get(), SoundSource.BLOCKS, 1f, 1f, 0);
 
                     break;
                 }
             }
 
             if(!foundBlock) {
-                player.sendSystemMessage(Component.literal("No valuables Found!"));
+                outputNoValuableFound(player);
             }
         }
 
@@ -59,16 +55,25 @@ public class MetalDetectorItem extends Item {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        pTooltipComponents.add(Component.translatable("tooltip.tutorialmod.metal_detector.tooltip"));
+        if(Screen.hasShiftDown()) {
+            pTooltipComponents.add(Component.translatable("tooltip.tutorialmod.metal_detector.tooltip.shift"));
+        } else {
+            pTooltipComponents.add(Component.translatable("tooltip.tutorialmod.metal_detector.tooltip"));
+        }
+
         super.appendHoverText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
     }
 
-    private void outputValuableCoordinates(BlockPos blockPos, Player player, Block block) {
-        player.sendSystemMessage(Component.literal("Found " + I18n.get(block.getDescriptionId()) + " at " +
-                "(" + blockPos.getX() + ", " + blockPos.getY() + "," + blockPos.getZ() + ")"));
+    private void outputNoValuableFound(Player player) {
+        player.sendSystemMessage(Component.translatable("item.tutorialmod.metal_detector.no_valuables"));
     }
 
-    private boolean isValuableBlock(BlockState state) {
-        return state.is(ModTags.Blocks.METAL_DETECTOR_VALUABLES);
+    private void outputValuableCoordinates(BlockPos below, Player player, Block block) {
+        player.sendSystemMessage(Component.literal("Valuable Found: " + I18n.get(block.getDescriptionId())
+                + " at (" + below.getX() + ", " + below.getY() + ", " + below.getZ() + ")"));
+    }
+
+    private boolean isValuableBlock(BlockState blockState) {
+        return blockState.is(ModTags.Blocks.METAL_DETECTOR_VALUABLES);
     }
 }

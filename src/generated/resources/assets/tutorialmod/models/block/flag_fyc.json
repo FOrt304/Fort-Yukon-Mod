@@ -1,0 +1,10 @@
+{
+  "parent": "tutorialmod:custom/flagh_fortyukon",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "all": "tutorialmod:block/flagh_fortyukon",
+    "particle": "tutorialmod:block/flagh_fortyukon",
+    "0": "tutorialmod:block/flagh_fortyukon",
+    "1": "tutorialmod:block/iron_block"
+  }
+}

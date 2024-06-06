@@ -1,10 +1,8 @@
 package net.kaupenjoe.tutorialmod.entity;
 
 import net.kaupenjoe.tutorialmod.TutorialMod;
-import net.kaupenjoe.tutorialmod.entity.custom.DiceProjectileEntity;
-import net.kaupenjoe.tutorialmod.entity.custom.ModBoatEntity;
-import net.kaupenjoe.tutorialmod.entity.custom.ModChestBoatEntity;
-import net.kaupenjoe.tutorialmod.entity.custom.RhinoEntity;
+import net.kaupenjoe.tutorialmod.entity.custom.*;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.MobCategory;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -20,6 +18,11 @@ public class ModEntities {
             ENTITY_TYPES.register("rhino", () -> EntityType.Builder.of(RhinoEntity::new, MobCategory.CREATURE)
                     .sized(2.5f, 2.5f).build("rhino"));
 
+    public static final RegistryObject<EntityType<BlueDragonEntity>> BLUE_DRAGON = ENTITY_TYPES.register("blue_dragon",
+            () -> EntityType.Builder.<BlueDragonEntity>of(BlueDragonEntity::new, MobCategory.MONSTER)
+                    .sized(1.0F, 2.0F)
+                    .build(new ResourceLocation(TutorialMod.MOD_ID, "blue_dragon").toString()));
+
 
     public static final RegistryObject<EntityType<ModBoatEntity>> MOD_BOAT =
             ENTITY_TYPES.register("mod_boat", () -> EntityType.Builder.<ModBoatEntity>of(ModBoatEntity::new, MobCategory.MISC)
@@ -33,6 +36,11 @@ public class ModEntities {
             ENTITY_TYPES.register("dice_projectile", () -> EntityType.Builder.<DiceProjectileEntity>of(DiceProjectileEntity::new, MobCategory.MISC)
                     .sized(0.5f, 0.5f).build("dice_projectile"));
 
+
+    public static final RegistryObject<EntityType<RocketEntity>> ROCKET_ENTITY = ENTITY_TYPES.register("rocket_entity",
+            () -> EntityType.Builder.<RocketEntity>of(RocketEntity::new, MobCategory.MISC)
+                    .sized(1.0F, 1.0F)
+                    .build("rocket_entity"));
 
 
 

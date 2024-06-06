@@ -26,6 +26,12 @@ public class ModSounds {
 
     public static final RegistryObject<SoundEvent> BAR_BRAWL = registerSoundEvents("bar_brawl");
 
+    public static final RegistryObject<SoundEvent> FORTYUKONINTRO = registerSoundEvents("fortyukonintro");
+
+    public static final RegistryObject<SoundEvent> JATTEROGERBEATBOXEDITION = registerSoundEvents("jatterogerbeatboxedition");
+
+    public static final RegistryObject<SoundEvent> AOFY = registerSoundEvents("aofy");
+
 
     public static final ForgeSoundType SOUND_BLOCK_SOUNDS = new ForgeSoundType(1f, 1f,
             ModSounds.SOUND_BLOCK_BREAK, ModSounds.SOUND_BLOCK_STEP, ModSounds.SOUND_BLOCK_PLACE,

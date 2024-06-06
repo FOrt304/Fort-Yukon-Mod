@@ -1,0 +1,10 @@
+{
+  "parent": "tutorialmod:custom/flagh_iaponii",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "all": "tutorialmod:block/flagh_iaponii",
+    "particle": "tutorialmod:block/flagh_iaponii",
+    "0": "tutorialmod:block/flagh_iaponii",
+    "1": "tutorialmod:block/oak_planks"
+  }
+}

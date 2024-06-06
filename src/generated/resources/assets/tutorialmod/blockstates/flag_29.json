@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "tutorialmod:block/flag_29"
+    },
+    "facing=east": {
+      "model": "tutorialmod:block/flag_29",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "tutorialmod:block/flag_29",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "tutorialmod:block/flag_29",
+      "y": 270
+    }
+  }
+}

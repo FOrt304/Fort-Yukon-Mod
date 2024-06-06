@@ -2,16 +2,25 @@ package net.kaupenjoe.tutorialmod.item;
 
 import net.kaupenjoe.tutorialmod.TutorialMod;
 import net.kaupenjoe.tutorialmod.block.ModBlocks;
+import net.kaupenjoe.tutorialmod.block.ModFluids;
 import net.kaupenjoe.tutorialmod.entity.ModEntities;
 import net.kaupenjoe.tutorialmod.entity.custom.ModBoatEntity;
+import net.kaupenjoe.tutorialmod.entity.custom.RocketEntity;
 import net.kaupenjoe.tutorialmod.item.custom.*;
 import net.kaupenjoe.tutorialmod.sound.ModSounds;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.InteractionResultHolder;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.food.FoodProperties;
 import net.minecraft.world.item.*;
 import net.minecraftforge.common.ForgeSpawnEggItem;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
+
+import java.util.Properties;
 
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
@@ -20,6 +29,11 @@ public class ModItems {
     public static final RegistryObject<Item> SAPPHIRE = ITEMS.register("sapphire",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_SAPPHIRE = ITEMS.register("raw_sapphire",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> ALEXANDRITE = ITEMS.register("alexandrite",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RAW_ALEXANDRITE = ITEMS.register("raw_alexandrite",
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
@@ -55,6 +69,43 @@ public class ModItems {
     public static final RegistryObject<Item> SAPPHIRE_BOOTS = ITEMS.register("sapphire_boots",
             () -> new ArmorItem(ModArmorMaterials.SAPPHIRE, ArmorItem.Type.BOOTS, new Item.Properties()));
 
+    public static final RegistryObject<Item> KOHLRABI = ITEMS.register("kohlrabi",
+            () -> new Item(new Item.Properties().food(ModFoods.KOHLRABI)));
+
+    public static final RegistryObject<Item> PEAT_BRICK = ITEMS.register("peat_brick",
+            () -> new FuelItem(new Item.Properties(), 200));
+
+    public static final RegistryObject<Item> ALEXANDRITE_SWORD = ITEMS.register("alexandrite_sword",
+            () -> new SwordItem(ModToolTiers.ALEXANDRITE, 2, 3, new Item.Properties().durability(256)));
+    public static final RegistryObject<Item> ALEXANDRITE_PICKAXE = ITEMS.register("alexandrite_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.ALEXANDRITE, 1, 2, new Item.Properties().durability(256)));
+    public static final RegistryObject<Item> ALEXANDRITE_SHOVEL = ITEMS.register("alexandrite_shovel",
+            () -> new ShovelItem(ModToolTiers.ALEXANDRITE, 2, 3, new Item.Properties().durability(256)));
+    public static final RegistryObject<Item> ALEXANDRITE_AXE = ITEMS.register("alexandrite_axe",
+            () -> new AxeItem(ModToolTiers.ALEXANDRITE, 2, 3, new Item.Properties().durability(256)));
+    public static final RegistryObject<Item> ALEXANDRITE_HOE = ITEMS.register("alexandrite_hoe",
+            () -> new HoeItem(ModToolTiers.ALEXANDRITE, 2, 3, new Item.Properties().durability(256)));
+
+    public static final RegistryObject<Item> KOSLING_SWORD = ITEMS.register("kosling_sword",
+            () -> new SwordItem(ModToolTiers.KOSLING, 4, 2, new Item.Properties()));
+    public static final RegistryObject<Item> KOSLING_PICKAXE = ITEMS.register("kosling_pickaxe",
+            () -> new PickaxeItem(ModToolTiers.KOSLING, 1, 1, new Item.Properties()));
+    public static final RegistryObject<Item> KOSLING_AXE = ITEMS.register("kosling_axe",
+            () -> new AxeItem(ModToolTiers.KOSLING, 7, 1, new Item.Properties()));
+    public static final RegistryObject<Item> KOSLING_SHOVEL = ITEMS.register("kosling_shovel",
+            () -> new ShovelItem(ModToolTiers.KOSLING, 0, 0, new Item.Properties()));
+    public static final RegistryObject<Item> KOSLING_HOE = ITEMS.register("kosling_hoe",
+            () -> new HoeItem(ModToolTiers.KOSLING, 0, 0, new Item.Properties()));
+
+    public static final RegistryObject<Item> KOSLING_HELMET = ITEMS.register("kosling_helmet",
+            () -> new ModArmorItem(ModArmorMaterials.KOSLING, ArmorItem.Type.HELMET, new Item.Properties()));
+    public static final RegistryObject<Item> KOSLING_CHESTPLATE = ITEMS.register("kosling_chestplate",
+            () -> new ArmorItem(ModArmorMaterials.KOSLING, ArmorItem.Type.CHESTPLATE, new Item.Properties()));
+    public static final RegistryObject<Item> KOSLING_LEGGINGS = ITEMS.register("kosling_leggings",
+            () -> new ArmorItem(ModArmorMaterials.KOSLING, ArmorItem.Type.LEGGINGS, new Item.Properties()));
+    public static final RegistryObject<Item> KOSLING_BOOTS = ITEMS.register("kosling_boots",
+            () -> new ArmorItem(ModArmorMaterials.KOSLING, ArmorItem.Type.BOOTS, new Item.Properties()));
+
     public static final RegistryObject<Item> STRAWBERRY_SEEDS = ITEMS.register("strawberry_seeds",
             () -> new ItemNameBlockItem(ModBlocks.STRAWBERRY_CROP.get(), new Item.Properties()));
 
@@ -72,6 +123,9 @@ public class ModItems {
     public static final RegistryObject<Item> RHINO_SPANW_EGG = ITEMS.register("rhino_spawn_egg",
             () -> new ForgeSpawnEggItem(ModEntities.RHINO, 0x7e9680, 0xc5d1c5, new Item.Properties()));
 
+    public static final RegistryObject<Item> BLUE_DRAGON_SPAWN_EGG = ITEMS.register("blue_dragon_spawn_egg",
+            () -> new ForgeSpawnEggItem(ModEntities.BLUE_DRAGON, 0x1e90ff, 0x00008b, new Item.Properties())); //, new Properties().tab(CreativeModeTabs.SPAWN_EGGS)));
+
     public static final RegistryObject<Item> PINE_SIGN = ITEMS.register("pine_sign",
             () -> new SignItem(new Item.Properties().stacksTo(16), ModBlocks.PINE_SIGN.get(), ModBlocks.PINE_WALL_SIGN.get()));
     public static final RegistryObject<Item> PINE_HANGING_SIGN = ITEMS.register("pine_hanging_sign",
@@ -84,6 +138,61 @@ public class ModItems {
 
     public static final RegistryObject<Item> DICE = ITEMS.register("dice",
             () -> new DiceItem(new Item.Properties()));
+
+    public static final RegistryObject<Item> KOSLING_IGNITER = ITEMS.register("kosling_dimension",
+            () -> new Item(new Item.Properties().stacksTo(1)));
+
+    public static final RegistryObject<Item> KOSLING = ITEMS.register("kosling",
+            () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> JATTEROGERBEATBOXEDITION = ITEMS.register("jatter_oger_beatbox_edition",
+            () -> new RecordItem(6, ModSounds.JATTEROGERBEATBOXEDITION, new Item.Properties().stacksTo(1), 5880));
+
+    public static final RegistryObject<Item> AOFY = ITEMS.register("aofy",
+            () -> new RecordItem(6, ModSounds.AOFY, new Item.Properties().stacksTo(1), 5600));
+
+    public static final RegistryObject<Item> FORTYUKON = ITEMS.register("fortyukon",
+            () -> new RecordItem(6, ModSounds.FORTYUKONINTRO, new Item.Properties().stacksTo(1), 100));
+    public static final RegistryObject<Item> CHERRY = ITEMS.register("cherry",
+//            () -> new CoalItem(new Item.Properties()));
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> COALPICKAXE = ITEMS.register("coalpickaxe",
+//            () -> new CoalpickaxeItem(new Item.Properties())); pText: Coal can burn.
+            () -> new PickaxeItem(ModToolTiers.COAL, 1, 1, new Item.Properties()));
+
+    public static final RegistryObject<Item> CHEESE_BUCKET = ITEMS.register("cheesebucket",
+            () -> new Item(new Item.Properties().craftRemainder(Items.BUCKET).stacksTo(1).rarity(Rarity.RARE)));
+//        ModFluids.CHEESE, ("Kosling = Cheese with Butter")
+
+    public static final RegistryObject<Item> CHEESEITEM = ITEMS.register("cheeseitem",
+            () -> new Item(new Item.Properties()
+//                    .tab(CreativeModeTabs.FOOD_AND_DRINKS)
+                    .food(new FoodProperties.Builder()
+                            .nutrition(4) // The amount of hunger restored
+                            .saturationMod(0.6f) // The amount of saturation restored
+                            .build())));
+
+    public static final RegistryObject<Item> ROCKET = ITEMS.register("rocket",
+            () -> new Item(new Item.Properties() {
+//                    .tab(CreativeModeTabs.TAB_MISC)) {
+                public InteractionResultHolder<ItemStack> use(Level world, Player player, InteractionHand hand) {
+                    if (!world.isClientSide) {
+                        ItemStack stack = player.getItemInHand(hand);
+                        // Place the rocket entity
+                        RocketEntity rocket = new RocketEntity(ModEntities.ROCKET_ENTITY.get(), world);
+                        rocket.setPos(player.getX(), player.getY() + 1, player.getZ());
+                        world.addFreshEntity(rocket);
+                        if (!player.isCreative()) {
+                            stack.shrink(1);
+                        }
+                    }
+                    return InteractionResultHolder.success(player.getItemInHand(hand));
+                }
+
+                public UseAnim getUseAnimation(ItemStack stack) {
+                    return UseAnim.BOW;
+                }
+            }));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);

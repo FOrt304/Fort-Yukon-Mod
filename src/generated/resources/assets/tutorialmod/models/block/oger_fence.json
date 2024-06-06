@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_side",
+  "textures": {
+    "texture": "tutorialmod:block/oger_planks",
+    "particle": "tutorialmod:block/oger_planks"
+  }
+}

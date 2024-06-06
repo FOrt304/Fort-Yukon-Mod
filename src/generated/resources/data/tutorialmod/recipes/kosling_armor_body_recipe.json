@@ -1,0 +1,39 @@
+{
+  "group": "tutorialmod",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "tutorialmod:kosling"
+    },
+    "2": {
+      "item": "tutorialmod:kosling"
+    },
+    "3": {
+      "item": "tutorialmod:kosling"
+    },
+    "4": {
+      "item": "tutorialmod:kosling"
+    },
+    "5": {
+      "item": "tutorialmod:kosling"
+    },
+    "6": {
+      "item": "tutorialmod:kosling"
+    },
+    "7": {
+      "item": "tutorialmod:kosling"
+    },
+    "8": {
+      "item": "tutorialmod:kosling"
+    }
+  },
+  "result": {
+    "item": "tutorialmod:kosling_armor_chestplate",
+    "count": 1
+  }
+}

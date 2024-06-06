@@ -1,0 +1,10 @@
+{
+  "parent": "tutorialmod:custom/flagh_avstrii",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "all": "tutorialmod:block/flagh_avstrii",
+    "particle": "tutorialmod:block/flagh_avstrii",
+    "0": "tutorialmod:block/flagh_avstrii",
+    "1": "tutorialmod:block/oak_planks"
+  }
+}

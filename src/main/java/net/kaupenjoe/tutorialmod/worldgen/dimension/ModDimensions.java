@@ -29,6 +29,12 @@ public class ModDimensions {
     public static final ResourceKey<DimensionType> KAUPEN_DIM_TYPE = ResourceKey.create(Registries.DIMENSION_TYPE,
             new ResourceLocation(TutorialMod.MOD_ID, "kaupendim_type"));
 
+//    public static final ResourceKey<LevelStem> KAUPENDIM_KEY = ResourceKey.create(Registries.LEVEL_STEM,
+//            new ResourceLocation(TutorialMod.MOD_ID, "kaupendim"));
+//    public static final ResourceKey<Level> KAUPENDIM_LEVEL_KEY = ResourceKey.create(Registries.DIMENSION,
+//            new ResourceLocation(TutorialMod.MOD_ID, "kaupendim"));
+//    public static final ResourceKey<DimensionType> KAUPEN_DIM_TYPE = ResourceKey.create(Registries.DIMENSION_TYPE,
+//            new ResourceLocation(TutorialMod.MOD_ID, "kaupendim_type"));
 
     public static void bootstrapType(BootstapContext<DimensionType> context) {
         context.register(KAUPEN_DIM_TYPE, new DimensionType(
