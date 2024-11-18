@@ -1,0 +1,12 @@
+{
+  "group": "fortyukon",
+  "type": "minecraft:smelting",
+  "experience": 2.0999999999999996,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "fortyukon:kosling_ore"
+  },
+  "result": {
+    "item": "fortyukon:kosling"
+  }
+}

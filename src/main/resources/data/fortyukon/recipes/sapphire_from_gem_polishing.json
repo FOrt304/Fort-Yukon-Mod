@@ -1,0 +1,12 @@
+{
+  "type": "fortyukon:gem_polishing",
+  "ingredients": [
+    {
+      "item": "fortyukon:raw_sapphire"
+    }
+  ],
+  "output": {
+    "count": 3,
+    "item": "fortyukon:sapphire"
+  }
+}

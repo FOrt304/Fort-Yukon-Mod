@@ -1,0 +1,9 @@
+{
+  "parent": "fortyukon:custom/clockedpipebomb",
+  "textures": {
+    "all": "fortyukon:block/clockedpipebombtxt",
+    "particle": "fortyukon:block/clockedpipebombtxt",
+    "1": "fortyukon:block/clockedpipebombtxt"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,18 @@
+{
+  "group": "e",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "eee",
+    "ee ",
+    "eee"
+  ],
+  "key": {
+    "e": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "result": {
+    "item": "fortyukon:e",
+    "count": 4
+  }
+}

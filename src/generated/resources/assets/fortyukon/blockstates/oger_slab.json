@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fortyukon:block/oger_slab"
+    },
+    "type=top": {
+      "model": "fortyukon:block/oger_slab_top"
+    },
+    "type=double": {
+      "model": "fortyukon:block/oger_slab_full"
+    }
+  }
+}

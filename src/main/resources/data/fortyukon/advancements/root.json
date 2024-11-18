@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "fortyukon:kosling"
+    },
+    "title": {
+      "translate": "advancements.fortyukon.root.title"
+    },
+    "description": {
+      "translate": "advancements.fortyukon.root.description"
+    },
+    "background": "fortyukon:textures/block/cheese.png",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "tick": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

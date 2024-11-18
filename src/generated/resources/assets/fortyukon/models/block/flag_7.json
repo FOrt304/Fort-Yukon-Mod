@@ -1,0 +1,10 @@
+{
+  "parent": "fortyukon:custom/flagh_ghrietsii",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "all": "fortyukon:block/flagh_ghrietsii",
+    "particle": "fortyukon:block/flagh_ghrietsii",
+    "0": "fortyukon:block/flagh_ghrietsii",
+    "1": "fortyukon:block/oak_planks"
+  }
+}

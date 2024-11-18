@@ -1,0 +1,9 @@
+{
+  "parent": "fortyukon:custom/model",
+  "textures": {
+    "all": "fortyukon:block/texturenuke",
+    "particle": "fortyukon:block/texturenuke",
+    "2": "fortyukon:block/texturenuke"
+  },
+  "render_type": "solid"
+}

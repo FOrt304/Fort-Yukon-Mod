@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "fortyukon:block/oger_planks",
+    "particle": "fortyukon:block/oger_planks"
+  }
+}

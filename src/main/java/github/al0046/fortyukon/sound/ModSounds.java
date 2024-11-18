@@ -1,0 +1,54 @@
+package github.al0046.fortyukon.sound;
+
+import github.al0046.fortyukon.FortYukon;
+import net.minecraft.resources.ResourceLocation;
+import net.minecraft.sounds.SoundEvent;
+import net.minecraftforge.common.util.ForgeSoundType;
+import net.minecraftforge.eventbus.api.IEventBus;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.RegistryObject;
+
+public class ModSounds {
+    public static final DeferredRegister<SoundEvent> SOUND_EVENTS =
+            DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, FortYukon.MOD_ID);
+
+    public static final RegistryObject<SoundEvent> METAL_DETECTOR_FOUND_ORE = registerSoundEvents("metal_detector_found_ore");
+
+    public static final RegistryObject<SoundEvent> SOUND_BLOCK_BREAK = registerSoundEvents("sound_block_break");
+    public static final RegistryObject<SoundEvent> SOUND_BLOCK_STEP = registerSoundEvents("sound_block_step");
+    public static final RegistryObject<SoundEvent> SOUND_BLOCK_FALL = registerSoundEvents("sound_block_fall");
+    public static final RegistryObject<SoundEvent> SOUND_BLOCK_PLACE = registerSoundEvents("sound_block_place");
+    public static final RegistryObject<SoundEvent> SOUND_BLOCK_HIT = registerSoundEvents("sound_block_hit");
+
+    public static final RegistryObject<SoundEvent> JATTER_OGER_BEATBOX = registerSoundEvents("jatter_oger_beatbox");
+
+
+    public static final RegistryObject<SoundEvent> BAR_BRAWL = registerSoundEvents("bar_brawl");
+
+    public static final RegistryObject<SoundEvent> FORTYUKONINTRO = registerSoundEvents("fortyukonintro");
+
+    public static final RegistryObject<SoundEvent> JATTEROGERBEATBOXEDITION = registerSoundEvents("jatterogerbeatboxedition");
+
+    public static final RegistryObject<SoundEvent> AOFY = registerSoundEvents("aofy");
+
+    public static final RegistryObject<SoundEvent> HAPPYOGERDAYVILLAGER = registerSoundEvents("happyogerdayvillager");
+    public static final RegistryObject<SoundEvent> KINGYUKISMESSAGE = registerSoundEvents("kingyukismessage");
+
+    public static final RegistryObject<SoundEvent> SWALLOW_DRINK = SOUND_EVENTS.register("swallow_water_after_drink",
+            () -> SoundEvent.createVariableRangeEvent(new ResourceLocation(FortYukon.MOD_ID, "swallow_water_after_drink")));
+
+
+    public static final ForgeSoundType SOUND_BLOCK_SOUNDS = new ForgeSoundType(1f, 1f,
+            ModSounds.SOUND_BLOCK_BREAK, ModSounds.SOUND_BLOCK_STEP, ModSounds.SOUND_BLOCK_PLACE,
+            ModSounds.SOUND_BLOCK_HIT, ModSounds.SOUND_BLOCK_FALL);
+
+
+    private static RegistryObject<SoundEvent> registerSoundEvents(String name) {
+        return SOUND_EVENTS.register(name, () -> SoundEvent.createVariableRangeEvent(new ResourceLocation(FortYukon.MOD_ID, name)));
+    }
+
+    public static void register(IEventBus eventBus) {
+        SOUND_EVENTS.register(eventBus);
+    }
+}

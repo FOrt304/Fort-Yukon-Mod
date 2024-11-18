@@ -1,0 +1,29 @@
+{
+  "group": "fortyukon",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "fortyukon:kosling"
+    },
+    "1": {
+      "item": "fortyukon:kosling"
+    },
+    "2": {
+      "item": "fortyukon:kosling"
+    },
+    "3": {
+      "item": "fortyukon:kosling"
+    },
+    "5": {
+      "item": "fortyukon:kosling"
+    }
+  },
+  "result": {
+    "item": "fortyukon:kosling_armor_helmet",
+    "count": 1
+  }
+}

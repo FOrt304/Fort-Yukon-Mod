@@ -1,10 +1,10 @@
 {
   "values": [
-    "tutorialmod:pine_log",
-    "tutorialmod:pine_wood",
-    "tutorialmod:stripped_pine_log",
-    "tutorialmod:stripped_pine_wood",
-    "tutorialmod:oger_log",
-    "tutorialmod:oger_wood",
+    "fortyukon:pine_log",
+    "fortyukon:pine_wood",
+    "fortyukon:stripped_pine_log",
+    "fortyukon:stripped_pine_wood",
+    "fortyukon:oger_log",
+    "fortyukon:oger_wood",
   ]
 }

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fortyukon:block/pipe_bomb"
+    },
+    "facing=east": {
+      "model": "fortyukon:block/pipe_bomb",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fortyukon:block/pipe_bomb",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fortyukon:block/pipe_bomb",
+      "y": 270
+    }
+  }
+}

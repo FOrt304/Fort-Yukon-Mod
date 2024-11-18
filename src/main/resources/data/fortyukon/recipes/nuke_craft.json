@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_block"
+    },
+    "b": {
+      "item": "minecraft:light_weighted_pressure_plate"
+    },
+    "c": {
+      "item": "fortyukon:nuke_core"
+    }
+  },
+  "result": {
+    "item": "fortyukon:nuke",
+    "count": 1
+  }
+}

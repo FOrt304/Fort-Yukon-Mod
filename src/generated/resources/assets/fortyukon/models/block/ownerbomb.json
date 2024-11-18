@@ -1,0 +1,9 @@
+{
+  "parent": "fortyukon:custom/ownernuke",
+  "textures": {
+    "all": "fortyukon:block/ownerbomb",
+    "particle": "fortyukon:block/ownerbomb",
+    "0": "fortyukon:block/ownerbomb"
+  },
+  "render_type": "solid"
+}

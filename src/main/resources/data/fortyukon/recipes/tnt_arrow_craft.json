@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:arrow"
+    },
+    "b": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "result": {
+    "item": "fortyukon:tnt_arrow",
+    "count": 8
+  }
+}

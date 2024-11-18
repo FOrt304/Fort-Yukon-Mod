@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fortyukon:block/alexandrite_slab"
+    },
+    "type=double": {
+      "model": "fortyukon:block/alexandrite_block"
+    },
+    "type=top": {
+      "model": "fortyukon:block/alexandrite_slab_top"
+    }
+  }
+}

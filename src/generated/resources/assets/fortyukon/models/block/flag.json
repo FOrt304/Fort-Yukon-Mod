@@ -1,0 +1,10 @@
+{
+  "parent": "fortyukon:custom/flag_belarus",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "all": "fortyukon:block/flagh_bielarusi",
+    "particle": "fortyukon:block/flagh_bielarusi",
+    "0": "fortyukon:block/flagh_bielarusi",
+    "1": "fortyukon:block/oak_planks"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "ingredient":
+  {
+    "item": "fortyukon:clay_bowl"
+  },
+  "result": "fortyukon:terracotta_bowl",
+  "experience": 0.35,
+  "cookingtime": 300
+}

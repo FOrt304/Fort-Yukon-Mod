@@ -1,0 +1,10 @@
+{
+  "parent": "fortyukon:custom/flagh_italii",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "all": "fortyukon:block/flagh_italii",
+    "particle": "fortyukon:block/flagh_italii",
+    "0": "fortyukon:block/flagh_italii",
+    "1": "fortyukon:block/oak_planks"
+  }
+}

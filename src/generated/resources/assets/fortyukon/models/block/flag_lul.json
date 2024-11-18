@@ -1,0 +1,10 @@
+{
+  "parent": "fortyukon:custom/flagh_lulutaland",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "all": "fortyukon:block/flagh_lulutaland",
+    "particle": "fortyukon:block/flagh_lulutaland",
+    "0": "fortyukon:block/flagh_lulutaland",
+    "1": "fortyukon:block/iron_block"
+  }
+}

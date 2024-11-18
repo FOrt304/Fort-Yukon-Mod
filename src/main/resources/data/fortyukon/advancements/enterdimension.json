@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "fortyukon:oger_sapling"
+    },
+    "title": {
+      "translate": "advancements.fortyukon.enterdimension.title"
+    },
+    "description": {
+      "translate": "advancements.fortyukon.enterdimension.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "enter_dimension": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "fortyukon:kaupendim"
+      }
+    }
+  },
+  "parent": "fortyukon:entertestbiome"
+}

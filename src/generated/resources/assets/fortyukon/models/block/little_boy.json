@@ -1,0 +1,9 @@
+{
+  "parent": "fortyukon:custom/littleboy",
+  "textures": {
+    "all": "fortyukon:block/littleboytxt",
+    "particle": "fortyukon:block/littleboytxt",
+    "0": "fortyukon:block/littleboytxt"
+  },
+  "render_type": "solid"
+}

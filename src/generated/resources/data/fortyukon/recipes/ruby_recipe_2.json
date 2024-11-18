@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "group": "ruby_recipe_2",
+  "category": "misc",
+  "experience": 5,
+  "cookingtime": 100,
+  "ingredient": {
+    "item": "fortyukon:ruby_ore"
+  },
+  "result": "fortyukon:ruby"
+}

@@ -1,8 +1,8 @@
 {
   "replace": false,
   "values": [
-    "tutorialmod:oger_planks",
-    "tutorialmod:oger_log",
-    "tutorialmod:oger_wood"
+    "fortyukon:oger_planks",
+    "fortyukon:oger_log",
+    "fortyukon:oger_wood"
   ]
 }

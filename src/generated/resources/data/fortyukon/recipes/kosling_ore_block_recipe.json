@@ -1,0 +1,42 @@
+{
+  "group": "fortyukon",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "fortyukon:kosling"
+    },
+    "1": {
+      "item": "fortyukon:kosling"
+    },
+    "2": {
+      "item": "fortyukon:kosling"
+    },
+    "3": {
+      "item": "fortyukon:kosling"
+    },
+    "4": {
+      "item": "fortyukon:kosling"
+    },
+    "5": {
+      "item": "fortyukon:kosling"
+    },
+    "6": {
+      "item": "fortyukon:kosling"
+    },
+    "7": {
+      "item": "fortyukon:kosling"
+    },
+    "8": {
+      "item": "fortyukon:kosling"
+    }
+  },
+  "result": {
+    "item": "fortyukon:kosling_block",
+    "count": 1
+  }
+}

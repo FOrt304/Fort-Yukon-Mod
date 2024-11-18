@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ruby_recipe_0",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "fortyukon:ruby_block"
+    }
+  },
+  "result": {
+    "item": "fortyukon:ruby",
+    "count": 9
+  }
+}

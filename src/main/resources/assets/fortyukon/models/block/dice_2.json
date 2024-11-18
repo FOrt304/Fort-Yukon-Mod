@@ -1,0 +1,12 @@
+{
+  "parent": "minecraft:block/cube",
+  "textures": {
+    "up": "fortyukon:block/dice_2",
+    "down": "fortyukon:block/dice_5",
+    "north": "fortyukon:block/dice_6",
+    "east": "fortyukon:block/dice_3",
+    "south": "fortyukon:block/dice_1",
+    "west": "fortyukon:block/dice_4",
+    "particle": "fortyukon:block/dice_2"
+  }
+}

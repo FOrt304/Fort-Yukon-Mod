@@ -1,0 +1,10 @@
+{
+  "parent": "fortyukon:custom/flagh_bolghariia",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "all": "fortyukon:block/flagh_bolghariia",
+    "particle": "fortyukon:block/flagh_bolghariia",
+    "0": "fortyukon:block/flagh_bolghariia",
+    "1": "fortyukon:block/oak_planks"
+  }
+}

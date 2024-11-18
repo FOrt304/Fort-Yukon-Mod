@@ -1,0 +1,27 @@
+{
+  "group": "sound_block",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01 ",
+    "34 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "fortyukon:sapphire"
+    },
+    "1": {
+      "item": "fortyukon:alexandrite"
+    },
+    "3": {
+      "item": "fortyukon:alexandrite"
+    },
+    "4": {
+      "item": "fortyukon:sapphire"
+    }
+  },
+  "result": {
+    "item": "fortyukon:sound_block",
+    "count": 1
+  }
+}

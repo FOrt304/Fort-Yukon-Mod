@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "fortyukon:e"
+    },
+    "title": {
+      "translate": "advancements.e.title"
+    },
+    "description": {
+      "translate": "advancements.e.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "e": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fortyukon:e"
+            ],
+            "count": {
+              "min": 1,
+              "max": 16
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "fortyukon:root"
+}

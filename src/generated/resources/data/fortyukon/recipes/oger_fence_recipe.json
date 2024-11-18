@@ -1,0 +1,32 @@
+{
+  "group": "fortyukon",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "fortyukon:oger_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "fortyukon:oger_planks"
+    },
+    "3": {
+      "item": "fortyukon:oger_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "fortyukon:oger_planks"
+    }
+  },
+  "result": {
+    "item": "fortyukon:oger_fence",
+    "count": 3
+  }
+}

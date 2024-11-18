@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "dad"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:emerald_block"
+    },
+    "b": {
+      "item": "minecraft:tnt"
+    },
+    "c": {
+      "item": "fortyukon:nuke_core"
+    },
+    "d": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "item": "fortyukon:little_boy",
+    "count": 1
+  }
+}

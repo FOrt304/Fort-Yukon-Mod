@@ -1,9 +1,9 @@
 {
   "values": [
-    "tutorialmod:bar_brawl_music_disc",
-    "tutorialmod:jatter_oger_beatbox_music_disc",
-    "tutorialmod:fortyukon",
-    "tutorialmod:jatter_oger_beatbox_edition",
-    "tutorialmod:aofy"
+    "fortyukon:bar_brawl_music_disc",
+    "fortyukon:jatter_oger_beatbox_music_disc",
+    "fortyukon:fortyukon",
+    "fortyukon:jatter_oger_beatbox_edition",
+    "fortyukon:aofy"
   ]
 }

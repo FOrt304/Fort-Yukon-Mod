@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "fortyukon:block/kosling_dimension_portal_ew"
+    },
+    "axis=x": {
+      "model": "fortyukon:block/kosling_dimension_portal_ns"
+    }
+  }
+}

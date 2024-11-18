@@ -1,0 +1,281 @@
+{
+  "item.fortyukon.sapphire": "Safir",
+  "item.fortyukon.raw_sapphire": "Rå Safir",
+
+  "item.fortyukon.alexandrite": "Alexandrit",
+  "item.fortyukon.raw_alexandrite": "Rå Alexandrit",
+  "item.fortyukon.kohlrabi": "Kålrabbi",
+  "item.fortyukon.peat_brick": "Torv Tegel",
+
+  "item.fortyukon.metal_detector": "Metall Detektor",
+  "advancements.metal_detector.title": "Hitta Metall!",
+  "advancements.metal_detector.descr": "Gör en Metall Detektor för att hitta malm under marken!",
+
+  "item.fortyukon.strawberry": "Jordgubb",
+  "item.fortyukon.pine_cone": "Tall Kotte",
+  "item.fortyukon.sapphire_staff": "Safir Stav",
+
+  "item.fortyukon.sapphire_sword": "Safir Svärd",
+  "item.fortyukon.sapphire_pickaxe": "Safir Hacka",
+  "item.fortyukon.sapphire_axe": "Safir Yxa",
+  "item.fortyukon.sapphire_shovel": "Safir Spade",
+  "item.fortyukon.sapphire_hoe": "Safir Skyffel",
+
+  "item.fortyukon.sapphire_helmet": "Safir Hjälm",
+  "item.fortyukon.sapphire_chestplate": "Safir Bröstplatta",
+  "item.fortyukon.sapphire_leggings": "Safir Damasker",
+  "item.fortyukon.sapphire_boots": "Safir Stövlar",
+
+  "item.fortyukon.strawberry_seeds": "Jordgubbs Frön",
+
+  "item.fortyukon.corn": "Majs",
+  "item.fortyukon.corn_seeds": "Majs Frön",
+
+  "item.fortyukon.bar_brawl_music_disc": "Bar Brawl Musik Disk",
+  "item.fortyukon.bar_brawl_music_disc.desc": "Bryan Tech - Bar Brawl (CC0)",
+
+  "item.fortyukon.jatter_oger_beatbox_music_disc": "Jätter Oger Beatbox Musik Disk",
+  "item.fortyukon.jatter_oger_beatbox_music_disc.desc": "Al0046 - Jätter Oger Beatbox Edition (06:07)",
+
+  "item.fortyukon.jatter_oger_beatbox_edition": "Jätter Oger Beatbox Edition OG",
+  "item.fortyukon.jatter_oger_beatbox_edition.desc": "Al0046 - Jätter Oger Beatbox Edition OG (03:57)",
+
+  "item.fortyukon.aofy": "Oger-Labs Original SoundTrack",
+  "item.fortyukon.aofy.desc": "AOFY - Oger-Labs Original SoundTrack (03:50)",
+
+  "item.fortyukon.fortyukon": "Fort Yukon Intro",
+  "item.fortyukon.fortyukon.desc": "AOFY - Fort Yukon Intro (00:05)",
+
+  "item.fortyukon.pine_boat": "Tall Båt",
+  "item.fortyukon.pine_chest_boat": "Tall Kista Båt",
+
+  "item.fortyukon.dice": "Tärning",
+
+  "block.fortyukon.sapphire_block": "Safir Block",
+  "block.fortyukon.raw_sapphire_block": "Rå Safir Block",
+
+  "block.fortyukon.sapphire_ore": "Safir Malm",
+  "block.fortyukon.deepslate_sapphire_ore": "Deepslate Safir Malm",
+  "block.fortyukon.end_stone_sapphire_ore": "Endstone Safir Malm",
+  "block.fortyukon.nether_sapphire_ore": "Nether Safir Malm",
+
+  "block.fortyukon.sound_block": "Ljud Block",
+  "tooltip.fortyukon.sound_block": "Spelar fina och söta ljud när du går eller högerklickar!",
+  "advancements.soundblock.title": "Gör Ljud!",
+  "advancements.soundblock.descr": "Skapa en Ljud Block för att göra ljud!",
+
+  "block.fortyukon.sapphire_stairs": "Safir Trappa",
+  "block.fortyukon.sapphire_slab": "Safir Skiva",
+  "block.fortyukon.sapphire_button": "Safir Knapp",
+  "block.fortyukon.sapphire_pressure_plate": "Safir Tryck Platta",
+  "block.fortyukon.sapphire_fence": "Safir Staket",
+  "block.fortyukon.sapphire_fence_gate": "Safir Stakets Port",
+  "block.fortyukon.sapphire_wall": "Safir Vägg",
+  "block.fortyukon.sapphire_door": "Safir Dörr",
+  "block.fortyukon.sapphire_trapdoor": "Safir Fallucka",
+
+  "item.fortyukon.alexandrite_axe": "Alexandrit Yxa",
+  "item.fortyukon.alexandrite_hoe": "Alexandrit Skyffel",
+  "item.fortyukon.alexandrite_pickaxe": "Alexandrit Hacka",
+  "item.fortyukon.alexandrite_shovel": "Alexandrit Spade",
+  "item.fortyukon.alexandrite_sword": "Alexandrit Svärd",
+
+  "block.fortyukon.alexandrite_block": "Alexandrit Block",
+  "block.fortyukon.raw_alexandrite_block": "Rå Alexandrit Block",
+
+  "block.fortyukon.alexandrite_ore": "Alexandrit Malm",
+  "block.fortyukon.deepslate_alexandrite_ore": "Deepslate Alexandrit Malm",
+  "block.fortyukon.end_stone_alexandrite_ore": "End Stone Alexandrit Malm",
+  "block.fortyukon.nether_alexandrite_ore": "Nether Alexandrit Malm",
+
+  "block.fortyukon.alexandrite_stairs": "Alexandrit Trappa",
+  "block.fortyukon.alexandrite_slab": "Alexandrit Skiva",
+  "block.fortyukon.alexandrite_pressure_plate": "Alexandrit Tryck Platta",
+  "block.fortyukon.alexandrite_button": "Alexandrit Knapp",
+  "block.fortyukon.alexandrite_fence": "Alexandrit Staket",
+  "block.fortyukon.alexandrite_fence_gate": "Alexandrit Stakets Port",
+  "block.fortyukon.alexandrite_wall": "Alexandrit Vägg",
+  "block.fortyukon.alexandrite_door": "Alexandrit Dörr",
+  "block.fortyukon.alexandrite_trapdoor": "Alexandrit Fallucka",
+
+  "block.fortyukon.catmint": "Kattmynta",
+
+  "block.fortyukon.gem_polishing_station": "Gem Polering Station",
+
+  "block.fortyukon.pine_log": "Pine Log",
+  "block.fortyukon.pine_planks": "Pine Planks",
+  "block.fortyukon.pine_wood": "Pine Wood",
+  "block.fortyukon.stripped_pine_log": "Stripped Pine Log",
+  "block.fortyukon.stripped_pine_wood": "Stripped Pine Wood",
+  "block.fortyukon.pine_leaves": "Pine Leaves",
+
+  "block.fortyukon.pine_sign": "Pine Sign",
+  "block.fortyukon.pine_hanging_sign": "Pine Hanging Sign",
+
+  "block.fortyukon.pine_sapling": "Pine Sapling",
+
+  "tooltip.fortyukon.metal_detector.tooltip.shift": "Right Click on Blocks to find valuables underground!",
+  "tooltip.fortyukon.metal_detector.tooltip": "Finds valuables underground!",
+
+  "entity.minecraft.villager.fortyukon.soundmaster": "Sound Master",
+  "entity.fortyukon.mod_chest_boat": "Boat with Chest",
+
+  "sounds.fortyukon.metal_detector_found_ore": "Metal Detector Jingle",
+
+  "item.fortyukon.metal_detector.no_valuables": "No Valuables Found!",
+
+  "item.fortyukon.rhino_spawn_egg": "Rhino Spawn Egg",
+  "item.fortyukon.blue.dragon_spawn_egg": "Blue Dragon Spawn Egg",
+
+  "block.fortyukon.mod_portal": "Fort Yukon Portal",
+  "advancements.obtainmod_portal.title": "Fort Yukon Portal",
+  "advancements.obtainmod_portal.descr": "Craft a Portal to go to Fort Yukon",
+
+  "creativetab.tutorial_tab": "Fort Yukon",
+
+  "advancements.fortyukondisc.title": "A new disc?!",
+  "gui.cherry.fyc.Verify": "Accept Fort Yukon Terms",
+  "gui.cherry.fyc.Terms": "Cheese",
+  "gui.yukon.fyc.Terms": "Cheese",
+  "advancements.cherry.descr": "Craft a Cherry.",
+  "advancements.fortyukondisc.descr": "Acquire Fort Yukon Intro Disc",
+  "advancements.coalpickadvancement.title": "Coal Pickaxe?!",
+  "enchantment.cherry.cheeseenchant": "Cheese",
+  "gui.yukon.fyc.button_done": "Done",
+  "advancements.coalpickadvancement.descr": "Craft a Coal Pickaxe.",
+  "item.cherry.coalpickaxe": "Coal Pickaxe",
+  "gui.cherry.fyc.button_done": "Done",
+  "advancements.cherry.title": "It's a Cherry!",
+  "gui.yukon.fyc.label_welcome_to_fort_yukon": "Welcome To Fort Yukon!",
+  "enchantment.yukon.cheeseenchant": "Cheese",
+  "item.fortyukon.coalpickaxe": "Coal Pickaxe",
+  "item.cherry.cherry": "Cherry",
+  "item.fortyukon.cherry": "Cherry",
+  "gui.fortyukon.fyc.label_welcome_to_fort_yukon": "Welcome To Fort Yukon!",
+  "gui.fortyukon.fyc.Verify": "Accept Fort Yukon Terms",
+
+  "item.fortyukon.cheeseitem": "Ost",
+
+  "item.fortyukon.cheese_cake": "Cheese Cake",
+  "advancements.cheese_cake.title": "Cheese Cake!",
+  "advancements.cheese_cake.descr": "Craft a Cheese Cake for eating Cheese on a cake!",
+
+  "item.fortyukon.sweden_cake": "Sweden Cake",
+  "advancements.sweden_cake.title": "Sweden Cake!",
+  "advancements.sweden_cake.descr": "Craft a Sweden Cake for Sweden's National Flag Day on 6th June!",
+
+
+  "item.fortyukon.rocket": "Fort Yukon Raket",
+  "advancements.obtainrocket.title": "Fort Yukon Rocket",
+  "advancements.obtainrocket.descr": "Craft a Rocket to Fort Yukon",
+
+  "item.fortyukon.kosling_dimension": "Kosling Igniter",
+  "block.fortyukon.kosling_block": "Block of Kosling",
+  "block.fortyukon.oger_sapling": "Oger Sapling",
+  "block.fortyukon.oger_slab": "Oger Slab",
+  "item.fortyukon.cheesebucket": "Cheese Bucket",
+  "block.fortyukon.kosling_ore": "Kosling Ore",
+  "item.fortyukon.kosling": "Kosling",
+  "item.fortyukon.kosling_sword": "Kosling Sword",
+  "advancements.cheesewith_butter.title": "Kosling?",
+  "advancements.cheesewith_butter.descr": "Obtain Kosling! Cheese with Butter",
+  "block.fortyukon.oger_planks": "Oger Planks",
+  "item.fortyukon.kosling_armor_helmet": "Kosling Helmet",
+  "item.fortyukon.kosling_armor_chestplate": "Kosling Chestplate",
+  "item.fortyukon.kosling_armor_leggings": "Kosling Leggings",
+  "item.fortyukon.kosling_armor_boots": "Kosling Boots",
+  "block.fortyukon.oger_button": "Oger Button",
+  "item.fortyukon.kosling_shovel": "Kosling Shovel",
+  "block.fortyukon.oger_log": "Oger Log",
+  "block.fortyukon.oger_stairs": "Oger Stairs",
+  "block.fortyukon.oger_fence": "Oger Fence",
+  "block.fortyukon.cheese": "Cheese",
+  "item.fortyukon.kosling_hoe": "Kosling Hoe",
+  "block.fortyukon.oger_leaves": "Oger Leaves",
+  "block.fortyukon.oger_fence_gate": "Oger Fence Gate",
+  "item.fortyukon.kosling_pickaxe": "Kosling Pickaxe",
+  "fluid_type.fortyukon.cheese": "Cheese",
+  "block.fortyukon.oger_pressure_plate": "Oger Pressure Plate",
+  "item.fortyukon.kosling_axe": "Kosling Axe",
+  "block.fortyukon.oger_wood": "Oger Wood",
+
+  "advancements.no_war.descr": "No war Stand with Ukraine Close the Sky over Ukraine",
+  "block.fortyukon.flag_12": "Flag Spain",
+  "block.fortyukon.flag_34": "Flag Switzerland",
+  "block.fortyukon.flag_11": "Flag Iceland",
+  "block.fortyukon.flag_33": "Flag Monaco",
+  "block.fortyukon.flag_10": "Flag Ireland",
+  "block.fortyukon.flag_32": "Flag Finland",
+  "block.fortyukon.flag_31": "Flag Estonia",
+  "advancements.no_war.title": "No War",
+  "block.fortyukon.flag_16": "Flag Cuba",
+  "block.fortyukon.flag_15": "Flag China",
+  "block.fortyukon.flag_14": "Flag Canada",
+  "block.fortyukon.flag_13": "Flag Italy",
+  "block.fortyukon.flag_19": "Flag Romania",
+  "block.fortyukon.flag": "Flag Belarus",
+  "block.fortyukon.flag_18": "Flag Lithuania",
+  "block.fortyukon.flag_17": "Flag Latvia",
+  "block.fortyukon.flag_1": "Flag Austria",
+  "block.fortyukon.flag_30": "Flag Belgium",
+  "block.fortyukon.flag_5": "Flag France",
+  "block.fortyukon.flag_23": "Flag Serbia",
+  "block.fortyukon.flag_4": "Flag Denmark",
+  "block.fortyukon.flag_22": "Flagga Sverige",
+  "block.fortyukon.flag_3": "Flag Czech Republic ",
+  "block.fortyukon.flag_21": "Flagga Polen",
+  "advancements.closethe_skyover_ukraine.descr": "Close the Sky over Ukraine",
+  "block.fortyukon.flag_2": "Flag Bulgaria",
+  "block.fortyukon.flag_20": "Flag Norway",
+  "block.fortyukon.flag_9": "Flag Japan",
+  "block.fortyukon.flag_27": "Flag UPA (Ukraine 1942)",
+  "block.fortyukon.flag_8": "Flag Georgia",
+  "block.fortyukon.flag_26": "Flag Ukraine",
+  "block.fortyukon.flag_7": "Flag Greece",
+  "block.fortyukon.flag_25": "Flag Turkey",
+  "block.fortyukon.flag_6": "Flag Germany",
+  "block.fortyukon.flag_24": "Flag USA",
+  "block.fortyukon.flag_29": "Flag Hungary",
+  "block.fortyukon.flag_28": "Flag United Kingdom ",
+  "block.fortyukon.flag_fyc": "Flagga Kingdom Of Fort Yukon ",
+  "block.fortyukon.flag_lul": "Flagga Luluta-Landet ",
+  "advancements.closethe_skyover_ukraine.title": "Close the Sky over Ukraine",
+
+  "fluid.fortyukon.cheese": "Ost",
+  "item.fortyukon.cheese_bucket": "Ost Hink",
+
+  "advancements.cheeseitem.title": "Ost Slicar?",
+  "advancements.cheeseitem.descr": "Ta Mjölk & Gör 1-4 Ost!",
+
+  "advancements.fortyukon.root.title": "Fort Yukon Adventures",
+  "advancements.fortyukon.root.description": "Välkommen till Fort Yukon! Fort Yukon's National Mat är Kosaling! Också kallad Ost med smör!",
+
+  "advancements.fortyukon.fortyukonflag.title": "Fort Yukon Flagga",
+  "advancements.fortyukon.fortyukonflag.descr": "Du gjorde king yuki's demokratiska kungadömet av Fort Yukon's Flagga",
+
+  "advancements.fortyukon.lulutalandflag.title": "Luluta-Landet Flagga",
+  "advancements.fortyukon.lulutalandflag.descr": "Du gjorde luluta mannens diktaturskapet av Luluta Land's Flagga",
+
+  "advancements.fortyukon.entertestbiome.title": "Enter the Fort Yukon Pine",
+  "advancements.fortyukon.entertestbiome.descr": "Enter the Fort Yukon Pine Tree Test biome.",
+
+  "advancements.fortyukon.enterdimension.title": "Enter The Fort Yukon Dimension",
+  "advancements.fortyukon.enterdimension.descr": "Enter The Fort Yukon Dimension using the Portal.",
+  "item.fortyukon.water_bottle": "Water Bottle",
+  "item.fortyukon.milk_carton": "Milk Carton",
+  "item.fortyukon.eggnog_carton": "Eggnog Carton",
+
+  "fortyukon.swallow_water_after_drink": "Swallow Water After Drink",
+  "fortyukon.placeholder_sound": "Placeholder Sound",
+  "item.fortyukon.kosling_boots": "Kosling Boots",
+  "item.fortyukon.kosling_chestplate": "Kosling Chestplate",
+  "item.fortyukon.kosling_helmet": "Kosling Helmet",
+  "item.fortyukon.kosling_leggings": "Kosling Leggings",
+
+  "item.fortyukon.e": "E",
+
+  "advancements.e.title": "DEN HELIGA E!",
+  "advancements.e.descr": "Erhålla en mystisk E",
+  "advancements.dice.title": "Det finns en tärning?",
+  "advancements.dice.descr": "Rulla en tärning."
+}

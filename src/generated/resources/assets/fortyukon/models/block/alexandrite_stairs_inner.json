@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "fortyukon:block/alexandrite_block",
+    "side": "fortyukon:block/alexandrite_block",
+    "top": "fortyukon:block/alexandrite_block"
+  }
+}

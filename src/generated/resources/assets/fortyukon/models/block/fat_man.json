@@ -1,0 +1,9 @@
+{
+  "parent": "fortyukon:custom/fatman",
+  "textures": {
+    "all": "fortyukon:block/fatmantxt",
+    "particle": "fortyukon:block/fatmantxt",
+    "0": "fortyukon:block/fatmantxt"
+  },
+  "render_type": "solid"
+}

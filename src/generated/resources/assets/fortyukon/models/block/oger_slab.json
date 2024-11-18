@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "fortyukon:block/oger_planks",
+    "top": "fortyukon:block/oger_planks",
+    "side": "fortyukon:block/oger_planks"
+  }
+}

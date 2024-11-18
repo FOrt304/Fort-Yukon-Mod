@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fortyukon:block/glowing_obsidian",
+    "up": "fortyukon:block/glowing_obsidian",
+    "north": "fortyukon:block/glowing_obsidian",
+    "east": "fortyukon:block/glowing_obsidian",
+    "south": "fortyukon:block/glowing_obsidian",
+    "west": "fortyukon:block/glowing_obsidian",
+    "particle": "fortyukon:block/glowing_obsidian"
+  },
+  "render_type": "solid"
+}

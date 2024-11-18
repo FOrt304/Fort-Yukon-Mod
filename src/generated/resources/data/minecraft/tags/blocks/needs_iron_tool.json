@@ -1,11 +1,12 @@
 {
   "values": [
-    "tutorialmod:sapphire_block",
-    "tutorialmod:alexandrite_block",
-    "tutorialmod:raw_alexandrite_block",
-    "tutorialmod:alexandrite_ore",
-    "tutorialmod:sound_block",
-    "tutorialmod:alexandrite_stairs",
-    "tutorialmod:alexandrite_slab"
+    "fortyukon:sapphire_block",
+    "fortyukon:alexandrite_block",
+    "fortyukon:raw_alexandrite_block",
+    "fortyukon:alexandrite_ore",
+    "fortyukon:sound_block",
+    "fortyukon:alexandrite_stairs",
+    "fortyukon:alexandrite_slab",
+    "fortyukon:ruby_block"
   ]
 }

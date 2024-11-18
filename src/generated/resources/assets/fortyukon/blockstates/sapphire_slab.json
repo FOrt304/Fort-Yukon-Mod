@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "fortyukon:block/sapphire_slab"
+    },
+    "type=double": {
+      "model": "fortyukon:block/sapphire_block"
+    },
+    "type=top": {
+      "model": "fortyukon:block/sapphire_slab_top"
+    }
+  }
+}

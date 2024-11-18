@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fortyukon:block/deepslate_ruby_ore",
+    "up": "fortyukon:block/deepslate_ruby_ore",
+    "north": "fortyukon:block/deepslate_ruby_ore",
+    "east": "fortyukon:block/deepslate_ruby_ore",
+    "south": "fortyukon:block/deepslate_ruby_ore",
+    "west": "fortyukon:block/deepslate_ruby_ore",
+    "particle": "fortyukon:block/deepslate_ruby_ore"
+  },
+  "render_type": "solid"
+}

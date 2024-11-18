@@ -1,0 +1,10 @@
+{
+  "parent": "fortyukon:custom/flagh_kubi",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "all": "fortyukon:block/flagh_kubi",
+    "particle": "fortyukon:block/flagh_kubi",
+    "0": "fortyukon:block/flagh_kubi",
+    "1": "fortyukon:block/oak_planks"
+  }
+}

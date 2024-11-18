@@ -1,0 +1,9 @@
+{
+  "parent": "fortyukon:custom/nukecomputer",
+  "textures": {
+    "all": "fortyukon:block/txtcomputer",
+    "particle": "fortyukon:block/txtcomputer",
+    "0": "fortyukon:block/txtcomputer"
+  },
+  "render_type": "solid"
+}

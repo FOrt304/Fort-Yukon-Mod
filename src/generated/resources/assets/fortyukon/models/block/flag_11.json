@@ -1,0 +1,10 @@
+{
+  "parent": "fortyukon:custom/flagh_islandii",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "all": "fortyukon:block/flagh_islandii",
+    "particle": "fortyukon:block/flagh_islandii",
+    "0": "fortyukon:block/flagh_islandii",
+    "1": "fortyukon:block/oak_planks"
+  }
+}

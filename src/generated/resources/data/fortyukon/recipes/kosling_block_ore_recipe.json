@@ -1,0 +1,13 @@
+{
+  "group": "fortyukon",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fortyukon:kosling_block"
+    }
+  ],
+  "result": {
+    "item": "fortyukon:kosling",
+    "count": 9
+  }
+}

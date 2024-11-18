@@ -11,13 +11,13 @@ loaderVersion="[47,)" #mandatory ${loader_version_range}This is typically bumped
 # Review your options at https://choosealicense.com/. ${mod_license}All rights reserved is the default copyright stance, and is thus the default here.
 license="MIT"
 # A URL to refer people to when problems occur with this mod
-#issueTrackerURL="https://change.me.to.your.issue.tracker.example.invalid/" #optional
+issueTrackerURL="https://github.com/FOrt304/Fort-Yukon-Mod/issues" #optional https://change.me.to.your.issue.tracker.example.invalid/ changed added
 # A list of mods - how many allowed here is determined by the individual mod loader
 [[mods]] #mandatory
 # The modid of the mod
-modId="tutorialmod" #mandatory${mod_id}
+modId="fortyukon" #mandatory${mod_id}
 # The version number of the mod
-version="0.7-1.20.1" #mandatory 0.2 0.5.7 0.6.9
+version="0.13-1.20.1" #mandatory 0.2 0.5.7 0.6.9 0.9 0.10 0.10.5 0.11
 # A display name for the mod
 displayName="Fort Yukon Mod" #mandatory
 # A URL to query for updates for this mod. See the JSON update specification https://docs.minecraftforge.net/en/latest/misc/updatechecker/
@@ -27,7 +27,7 @@ displayURL="https://sites.google.com/view/fortyukonwiki" #optional
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="icon.png" #optional
 # A text field displayed in the mod UI
-credits="kaupenjoe, Al0046" #optional
+credits="kaupenjoe, Al0046, and all the mods' sources helped me code this." #optional
 # A text field displayed in the mod UI
 authors="Al0046, FOrt404" #optional ${mod_authors}
 # Display Test controls the display for your mod in the server connection screen
@@ -36,12 +36,12 @@ authors="Al0046, FOrt404" #optional ${mod_authors}
 # IGNORE_ALL_VERSION means that your mod will not cause a red X if it's present on the client or the server. This is a special case and should only be used if your mod has no server component.
 # NONE means that no display test is set on your mod. You need to do this yourself, see IExtensionPoint.DisplayTest for more information. You can define any scheme you wish with this value.
 # IMPORTANT NOTE: this is NOT an instruction as to which environments (CLIENT or DEDICATED SERVER) your mod loads on. Your mod should load (and maybe do nothing!) whereever it finds itself.
-#displayTest="MATCH_VERSION" # MATCH_VERSION is the default if nothing is specified (#optional)
+displayTest="MATCH_VERSION" # MATCH_VERSION is the default if nothing is specified (#optional)
 
 # The description text for the mod (multi line!) (#mandatory)[47,)
 description='''This is a Fort Yukon Mod made by FOrt404 :)'''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.tutorialmod]] #optional${mod_id}
+[[dependencies.fortyukon]] #optional${mod_id}
     # the modid of the dependency
     modId="forge" #mandatory
     # Does this dependency have to exist - if not, ordering below must be specified
@@ -55,21 +55,27 @@ description='''This is a Fort Yukon Mod made by FOrt404 :)'''
     # Side this dependency is applied on - BOTH, CLIENT, or SERVER
     side="BOTH"
 # Here's another dependency${mod_id}
-[[dependencies.tutorialmod]]
+[[dependencies.fortyukon]]
     modId="minecraft"
     mandatory=true
     # This version range declares${mod_id} a minimum of the current minecraft version up to but not including the next major version
     versionRange="[1.20.1,1.21)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.tutorialmod]]
+[[dependencies.fortyukon]]
     modId="terrablender"
     mandatory=true
     # This version range declares a minimum of the current minecraft version up to but not including the next major version
     versionRange="[3.0.0.169,)"
     ordering="NONE"
     side="BOTH"
-#[[dependencies.tutorialmod]]
+#[[dependencies.fortyukon]]
+#modId="create"
+#mandatory=false
+#versionRange="[0.5.1.a,)"
+#ordering="NONE"
+#side="BOTH"
+#[[dependencies.fortyukon]]
 #modId="geckolib"
 #mandatory=false
 #versionRange="[0,)"

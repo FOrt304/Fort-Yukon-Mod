@@ -1,0 +1,10 @@
+{
+  "parent": "fortyukon:custom/flag_schevechei",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "all": "fortyukon:block/schevechei",
+    "particle": "fortyukon:block/schevechei",
+    "0": "fortyukon:block/schevechei",
+    "1": "fortyukon:block/oak_planks"
+  }
+}

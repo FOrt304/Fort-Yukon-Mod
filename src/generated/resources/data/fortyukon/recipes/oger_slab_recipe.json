@@ -1,0 +1,22 @@
+{
+  "group": "fortyukon",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "fortyukon:oger_planks"
+    },
+    "1": {
+      "item": "fortyukon:oger_planks"
+    },
+    "2": {
+      "item": "fortyukon:oger_planks"
+    }
+  },
+  "result": {
+    "item": "fortyukon:oger_slab",
+    "count": 6
+  }
+}

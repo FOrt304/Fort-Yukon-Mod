@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "fortyukon:block/flag_fyc"
+    },
+    "facing=east": {
+      "model": "fortyukon:block/flag_fyc",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "fortyukon:block/flag_fyc",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "fortyukon:block/flag_fyc",
+      "y": 270
+    }
+  }
+}

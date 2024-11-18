@@ -1,0 +1,13 @@
+{
+  "group": "fortyukon",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fortyukon:oger_planks"
+    }
+  ],
+  "result": {
+    "item": "fortyukon:oger_button",
+    "count": 1
+  }
+}

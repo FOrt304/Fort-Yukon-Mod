@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "fortyukon:block/oger_log_side",
+    "particle": "fortyukon:block/oger_log_side"
+  }
+}

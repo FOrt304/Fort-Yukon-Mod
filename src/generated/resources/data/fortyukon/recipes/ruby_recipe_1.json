@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "group": "ruby_recipe_1",
+  "category": "misc",
+  "experience": 5,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "fortyukon:ruby_ore"
+  },
+  "result": "fortyukon:ruby"
+}

@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "fortyukon:pine_sapling"
+    },
+    "title": {
+      "translate": "advancements.fortyukon.entertestbiome.title"
+    },
+    "description": {
+      "translate": "advancements.fortyukon.entertestbiome.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "criteria": {
+    "entertestbiome": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "location": {
+          "biome": "fortyukon:test_biome"
+        }
+      }
+    }
+  },
+  "parent": "fortyukon:obtainmod_portal"
+}

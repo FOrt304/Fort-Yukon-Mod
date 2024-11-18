@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "magicalize_wand_recipe",
+  "category": "misc",
+  "pattern": [
+    " aa",
+    " ba",
+    "b  "
+  ],
+  "key": {
+    "a": {
+      "item": "fortyukon:ruby"
+    },
+    "b": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "result": {
+    "item": "fortyukon:magicalize_wand",
+    "count": 1
+  }
+}

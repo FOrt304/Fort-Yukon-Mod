@@ -1,0 +1,10 @@
+{
+  "parent": "fortyukon:custom/flag_estonia",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "all": "fortyukon:block/estonia",
+    "particle": "fortyukon:block/estonia",
+    "0": "fortyukon:block/estonia",
+    "1": "fortyukon:block/oak_planks"
+  }
+}

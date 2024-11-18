@@ -1,0 +1,10 @@
+{
+  "parent": "fortyukon:custom/flagh_upa",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "all": "fortyukon:block/flagh_upa",
+    "particle": "fortyukon:block/flagh_upa",
+    "0": "fortyukon:block/flagh_upa",
+    "1": "fortyukon:block/oak_planks"
+  }
+}

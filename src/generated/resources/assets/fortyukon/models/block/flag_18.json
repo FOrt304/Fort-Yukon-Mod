@@ -1,0 +1,10 @@
+{
+  "parent": "fortyukon:custom/flag_latvua",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "all": "fortyukon:block/flagh_litva",
+    "particle": "fortyukon:block/flagh_litva",
+    "0": "fortyukon:block/flagh_latviia",
+    "1": "fortyukon:block/oak_planks"
+  }
+}

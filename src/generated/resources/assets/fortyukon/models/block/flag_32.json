@@ -1,0 +1,10 @@
+{
+  "parent": "fortyukon:custom/flag_finlandia",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "all": "fortyukon:block/finlandia",
+    "particle": "fortyukon:block/finlandia",
+    "0": "fortyukon:block/finlandia",
+    "1": "fortyukon:block/oak_planks"
+  }
+}

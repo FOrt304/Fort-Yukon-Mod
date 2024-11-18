@@ -1,0 +1,33 @@
+{
+  "group": "fortyukon",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "fortyukon:oger_planks"
+    },
+    "3": {
+      "item": "fortyukon:oger_planks"
+    },
+    "4": {
+      "item": "fortyukon:oger_planks"
+    },
+    "6": {
+      "item": "fortyukon:oger_planks"
+    },
+    "7": {
+      "item": "fortyukon:oger_planks"
+    },
+    "8": {
+      "item": "fortyukon:oger_planks"
+    }
+  },
+  "result": {
+    "item": "fortyukon:oger_stairs",
+    "count": 4
+  }
+}

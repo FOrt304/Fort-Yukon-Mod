@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "bcb",
+    "aba"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gold_block"
+    },
+    "b": {
+      "item": "minecraft:tnt"
+    },
+    "c": {
+      "item": "fortyukon:nuke_core"
+    }
+  },
+  "result": {
+    "item": "fortyukon:charged_nuke_core",
+    "count": 1
+  }
+}

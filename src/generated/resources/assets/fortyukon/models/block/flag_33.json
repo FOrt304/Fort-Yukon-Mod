@@ -1,0 +1,10 @@
+{
+  "parent": "fortyukon:custom/flag_monako",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "all": "fortyukon:block/monako",
+    "particle": "fortyukon:block/monako",
+    "0": "fortyukon:block/monako",
+    "1": "fortyukon:block/oak_planks"
+  }
+}

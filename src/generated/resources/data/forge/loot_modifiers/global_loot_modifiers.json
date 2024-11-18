@@ -1,9 +1,24 @@
 {
   "entries": [
-    "tutorialmod:pine_cone_from_grass",
-    "tutorialmod:pine_cone_from_creeper",
-    "tutorialmod:metal_detector_from_suspicious_sand",
-    "tutorialmod:metal_detector_from_jungle_temples"
+    "fortyukon:pine_cone_from_grass",
+    "fortyukon:pine_cone_from_creeper",
+    "fortyukon:metal_detector_from_suspicious_sand",
+    "fortyukon:metal_detector_from_jungle_temples",
+    "fortyukon:add_loot_shipwreck_supply",
+    "fortyukon:add_loot_shipwreck_supply_fr",
+    "fortyukon:add_loot_shipwreck_supply_bc",
+    "fortyukon:add_loot_abandoned_mineshaft",
+    "fortyukon:add_loot_abandoned_mineshaft_fr",
+    "fortyukon:add_loot_abandoned_mineshaft_bc",
+    "fortyukon:add_loot_simple_dungeon",
+    "fortyukon:add_loot_simple_dungeon_fr",
+    "fortyukon:add_loot_simple_dungeon_bc",
+    "fortyukon:add_loot_nether_bridge",
+    "fortyukon:add_loot_nether_bridge_fr",
+    "fortyukon:add_loot_nether_bridge_bc",
+    "fortyukon:add_loot_bastion_other",
+    "fortyukon:add_loot_bastion_other_fr",
+    "fortyukon:add_loot_bastion_other_bc"
   ],
   "replace": false
 }

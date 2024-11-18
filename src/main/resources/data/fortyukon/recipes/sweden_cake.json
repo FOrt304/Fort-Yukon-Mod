@@ -1,0 +1,42 @@
+{
+  "group": "sweden_cake",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:blue_wool"
+    },
+    "1": {
+      "item": "minecraft:yellow_wool"
+    },
+    "2": {
+      "item": "minecraft:blue_wool"
+    },
+    "3": {
+      "item": "minecraft:egg"
+    },
+    "4": {
+      "item": "minecraft:milk_bucket"
+    },
+    "5": {
+      "item": "minecraft:egg"
+    },
+    "6": {
+      "item": "minecraft:wheat"
+    },
+    "7": {
+      "item": "minecraft:wheat"
+    },
+    "8": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "item": "fortyukon:sweden_cake",
+    "count": 1
+  }
+}

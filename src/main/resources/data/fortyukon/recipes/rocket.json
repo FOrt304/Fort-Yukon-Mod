@@ -1,0 +1,42 @@
+{
+  "group": "rocket",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "123",
+    "456",
+    "789"
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:iron_ingot"
+    },
+    "2": {
+      "item": "minecraft:iron_ingot"
+    },
+    "3": {
+      "item": "minecraft:iron_ingot"
+    },
+    "4": {
+      "item": "minecraft:coal"
+    },
+    "5": {
+      "item": "minecraft:redstone_block"
+    },
+    "6": {
+      "item": "minecraft:coal"
+    },
+    "7": {
+      "item": "minecraft:iron_ingot"
+    },
+  "8": {
+    "item": "minecraft:iron_ingot"
+  },
+  "9": {
+    "item": "minecraft:iron_ingot"
+  }
+},
+  "result": {
+    "item": "fortyukon:rocket",
+    "count": 1
+  }
+}

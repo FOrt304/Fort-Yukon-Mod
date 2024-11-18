@@ -1,0 +1,119 @@
+{
+  "metal_detector_found_ore": {
+    "subtitles": "sounds.fortyukon.metal_detector_found_ore",
+    "sounds": [
+      "fortyukon:metal_detector_found_ore"
+    ]
+  },
+  "sound_block_break": {
+    "subtitle": "sounds.fortyukon.sound_block_break",
+    "sounds": [
+      "fortyukon:sound_block_break"
+    ]
+  },
+  "sound_block_step": {
+    "subtitle": "sounds.fortyukon.sound_block_step",
+    "sounds": [
+      "fortyukon:sound_block_step"
+    ]
+  },
+  "sound_block_place": {
+    "subtitle": "sounds.fortyukon.sound_block_place",
+    "sounds": [
+      "fortyukon:sound_block_place"
+    ]
+  },
+  "sound_block_hit": {
+    "subtitle": "sounds.fortyukon.sound_block_hit",
+    "sounds": [
+      "fortyukon:sound_block_hit"
+    ]
+  },
+  "sound_block_fall": {
+    "subtitle": "sounds.fortyukon.sound_block_fall",
+    "sounds": [
+      "fortyukon:sound_block_fall"
+    ]
+  },
+  "bar_brawl": {
+    "sounds": [
+      {
+        "name": "fortyukon:bar_brawl",
+        "stream": true
+      }
+    ]
+  },
+  "jatter_oger_beatbox": {
+    "sounds": [
+      {
+        "name": "fortyukon:jatter_oger_beatbox",
+        "stream": true
+      }
+    ]
+  },
+  "fortyukonintro": {
+    "sounds": [
+      {
+        "name": "fortyukon:recording3",
+        "stream": true
+      }
+    ]
+  },
+  "jatterogerbeatboxedition": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "fortyukon:jatter_oger_beatbox_edition",
+        "stream": true
+      }
+    ]
+  },
+  "aofy": {
+    "category": "music",
+    "sounds": [
+      {
+        "name": "fortyukon:aofy",
+        "stream": true
+      }
+    ]
+  },
+  "swallow_water_after_drink": {
+    "subtitle": "fortyukon.swallow_water_after_drink",
+    "sounds": [
+      "fortyukon:swallow_water_after_drink"
+    ]
+  },
+  "placeholder_sound": {
+    "subtitle": "fortyukon.placeholder_sound",
+    "sounds": [
+      "fortyukon:placeholder_sound"
+    ]
+  },
+  "bompbeep": {
+    "subtitle": "subtitles.bompbeep",
+    "sounds": [
+      {
+        "name": "fortyukon:onebeep",
+        "stream": false
+      }
+    ]
+  },
+  "happyogerdayvillager": {
+    "subtitle": "subtitles.happyogerdayvillager",
+    "sounds": [
+      {
+        "name": "fortyukon:happyogerdayvillager",
+        "stream": false
+      }
+    ]
+  },
+  "kingyukismessage": {
+    "subtitle": "subtitles.kingyukismessage",
+    "sounds": [
+      {
+        "name": "fortyukon:kingyukismessage",
+        "stream": false
+      }
+    ]
+  }
+}

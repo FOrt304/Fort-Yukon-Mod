@@ -1,0 +1,42 @@
+{
+  "group": "cheese_cake",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "fortyukon:cheeseitem"
+    },
+    "1": {
+      "item": "fortyukon:cheeseitem"
+    },
+    "2": {
+      "item": "fortyukon:cheeseitem"
+    },
+    "3": {
+      "item": "minecraft:egg"
+    },
+    "4": {
+      "item": "minecraft:milk_bucket"
+    },
+    "5": {
+      "item": "minecraft:egg"
+    },
+    "6": {
+      "item": "minecraft:wheat"
+    },
+    "7": {
+      "item": "minecraft:wheat"
+    },
+    "8": {
+      "item": "minecraft:wheat"
+    }
+  },
+  "result": {
+    "item": "fortyukon:cheese_cake",
+    "count": 1
+  }
+}

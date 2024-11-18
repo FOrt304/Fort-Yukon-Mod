@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fortyukon:block/oger_log_top",
+    "up": "fortyukon:block/oger_log_top",
+    "north": "fortyukon:block/oger_log_side",
+    "east": "fortyukon:block/oger_log_side",
+    "south": "fortyukon:block/oger_log_side",
+    "west": "fortyukon:block/oger_log_side",
+    "particle": "fortyukon:block/oger_log_top"
+  }
+}

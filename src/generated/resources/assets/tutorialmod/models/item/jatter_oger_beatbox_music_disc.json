@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:item/generated",
-  "textures": {
-    "layer0": "tutorialmod:item/jatter_oger_beatbox_music_disc"
-  }
-}

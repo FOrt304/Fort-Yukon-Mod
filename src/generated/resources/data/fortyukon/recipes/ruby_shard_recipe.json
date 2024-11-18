@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "ruby_shard_recipe",
+  "category": "misc",
+  "pattern": [
+    "a"
+  ],
+  "key": {
+    "a": {
+      "item": "fortyukon:ruby"
+    }
+  },
+  "result": {
+    "item": "fortyukon:ruby_shard",
+    "count": 9
+  }
+}

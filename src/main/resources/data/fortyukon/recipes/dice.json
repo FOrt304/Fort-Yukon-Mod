@@ -1,0 +1,27 @@
+{
+  "group": "dice",
+  "type": "minecraft:crafting_shapeless",
+  "pattern": [
+    "01 ",
+    "34 ",
+    "   "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:quartz"
+    },
+    "1": {
+      "item": "minecraft:coal"
+    },
+    "3": {
+      "item": "minecraft:coal"
+    },
+    "4": {
+      "item": "minecraft:quartz"
+    }
+  },
+  "result": {
+    "item": "fortyukon:cherry",
+    "count": 2
+  }
+}

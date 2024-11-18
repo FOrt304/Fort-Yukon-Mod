@@ -1,0 +1,10 @@
+{
+  "parent": "fortyukon:custom/flag_polish",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "all": "fortyukon:block/flagh_polshi",
+    "particle": "fortyukon:block/flagh_polshi",
+    "0": "fortyukon:block/flagh_polshi",
+    "1": "fortyukon:block/oak_planks"
+  }
+}

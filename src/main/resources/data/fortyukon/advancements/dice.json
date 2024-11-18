@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "fortyukon:dice"
+    },
+    "title": {
+      "translate": "advancements.dice.title"
+    },
+    "description": {
+      "translate": "advancements.dice.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "dice": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "fortyukon:dice"
+            ],
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "fortyukon:e"
+}

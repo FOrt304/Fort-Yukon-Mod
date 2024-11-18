@@ -1,0 +1,40 @@
+{
+  "display": {
+    "icon": {
+      "item": "fortyukon:ruby"
+    },
+    "title": {
+      "translate": "advancements.was_forgotten.title"
+    },
+    "description": {
+      "translate": "advancements.was_forgotten.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "was_forgotten_0": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "experience": 0,
+    "recipes": [
+      "fortyukon:fortyukon_block_recipe",
+      "fortyukon:fortyukon_recipe_0",
+      "fortyukon:fortyukon_recipe_1",
+      "fortyukon:fortyukon_recipe_2",
+      "fortyukon:magical_picker_recipe",
+      "fortyukon:fortyukon_recipe_3",
+      "fortyukon:fortyukon_shard_recipe",
+      "fortyukon:fortyukon_pickaxe_recipe",
+      "fortyukon:fortyukon_sword_recipe",
+      "fortyukon:fortyukon_axe_recipe",
+      "fortyukon:fortyukon_shovel_recipe",
+      "fortyukon:fortyukon_hoe_recipe"
+    ]
+  },
+  "parent": "fortyukon:root"
+}

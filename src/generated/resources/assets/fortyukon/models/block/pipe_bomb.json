@@ -1,0 +1,9 @@
+{
+  "parent": "fortyukon:custom/pipebomb",
+  "textures": {
+    "all": "fortyukon:block/pipebombtxt",
+    "particle": "fortyukon:block/pipebombtxt",
+    "0": "fortyukon:block/pipebombtxt"
+  },
+  "render_type": "solid"
+}

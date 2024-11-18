@@ -1,0 +1,35 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "6  "
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:blue_wool"
+    },
+    "1": {
+      "item": "minecraft:white_wool"
+    },
+    "2": {
+      "item": "minecraft:white_wool"
+    },
+    "3": {
+      "item": "minecraft:blue_wool"
+    },
+    "4": {
+      "item": "minecraft:red_wool"
+    },
+    "5": {
+      "item": "minecraft:red_wool"
+    },
+    "6": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "fortyukon:flag_3",
+    "count": 1
+  }
+}

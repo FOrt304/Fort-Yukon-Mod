@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient":
+  {
+    "item": "fortyukon:clay_bowl"
+  },
+  "result": "fortyukon:terracotta_bowl",
+  "experience": 0.35,
+  "cookingtime": 200
+}

@@ -1,8 +1,0 @@
-{
-  "parent": "block/slab",
-  "textures": {
-    "bottom": "tutorialmod:block/oger_planks",
-    "top": "tutorialmod:block/oger_planks",
-    "side": "tutorialmod:block/oger_planks"
-  }
-}

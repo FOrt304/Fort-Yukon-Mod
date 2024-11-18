@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "tutorialmod:block/kosling_ore",
-    "particle": "tutorialmod:block/kosling_ore"
-  }
-}

@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "number=up": {
+      "model": "fortyukon:block/dice_1"
+    },
+    "number=north": {
+      "model": "fortyukon:block/dice_2"
+    },
+    "number=east": {
+      "model": "fortyukon:block/dice_3"
+    },
+    "number=south": {
+      "model": "fortyukon:block/dice_5"
+    },
+    "number=west": {
+      "model": "fortyukon:block/dice_4"
+    },
+    "number=down": {
+      "model": "fortyukon:block/dice_6"
+    }
+  }
+}

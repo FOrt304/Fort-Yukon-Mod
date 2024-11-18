@@ -1,0 +1,30 @@
+{
+  "group": "fortyukon",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "fortyukon:kosling"
+    },
+    "1": {
+      "item": "fortyukon:kosling"
+    },
+    "2": {
+      "item": "fortyukon:kosling"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "fortyukon:kosling_pickaxe",
+    "count": 1
+  }
+}

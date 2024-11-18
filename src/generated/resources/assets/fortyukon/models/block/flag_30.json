@@ -1,0 +1,10 @@
+{
+  "parent": "fortyukon:custom/flag_belgia",
+  "render_type": "minecraft:translucent",
+  "textures": {
+    "all": "fortyukon:block/belgia",
+    "particle": "fortyukon:block/belgia",
+    "0": "fortyukon:block/belgia",
+    "1": "fortyukon:block/oak_planks"
+  }
+}

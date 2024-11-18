@@ -1,7 +1,8 @@
 {
   "values": [
-    "tutorialmod:raw_sapphire_block",
-    "tutorialmod:deepslate_alexandrite_ore",
-    "tutorialmod:end_stone_alexandrite_ore"
+    "fortyukon:raw_sapphire_block",
+    "fortyukon:deepslate_alexandrite_ore",
+    "fortyukon:end_stone_alexandrite_ore",
+    "fortyukon:glowing_obsidian"
   ]
 }

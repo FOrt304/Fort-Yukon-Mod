@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "fortyukon:block/ruby_ore",
+    "up": "fortyukon:block/ruby_ore",
+    "north": "fortyukon:block/ruby_ore",
+    "east": "fortyukon:block/ruby_ore",
+    "south": "fortyukon:block/ruby_ore",
+    "west": "fortyukon:block/ruby_ore",
+    "particle": "fortyukon:block/ruby_ore"
+  },
+  "render_type": "solid"
+}
